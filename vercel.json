@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/ripsscon2025",
+      "permanent": true
+    }
+  ]
+}
