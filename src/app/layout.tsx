@@ -1,0 +1,266 @@
+"use client"; // Needed for useState
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+import Link from 'next/link';
+import { useState } from 'react';
+import Footer from '@/app/components/footer';
+import "./global.css";
+import ScrollCircleIndicator from '@/app/components/ScrollCircleIndicator';
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  return (
+    <html lang="en">
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
+        <div className="flex flex-col min-h-screen">
+          {/* Header */}
+          <header className="bg-white text-gray-800  z-20 shadow-md"> {/* Changed background to white, removed padding */}
+            <div className="container mx-auto flex flex-wrap justify-between items-center py-4 px-3 md:px-4"> {/* Corrected class names for layout */}
+               {/* Logos and Event Info */}
+              {/* Logo to move */}
+              <div className="flex items-center flex-shrink-0 mr-auto"> {/* Added flex-shrink-0 and mr-auto */}
+                <img src="/logo1.png" alt="Logo 1" className="h-30" />
+                <img src="/logo2.jpeg" alt="Logo 2" className="h-30" />
+                <img src="/logo3.jpeg" alt="Logo 3" className="h-30" />
+
+                <div className="flex flex-col justify-center">
+                  <Link href="/" className="text-lg font-bold block">10th World Conference  of the</Link>
+                  <Link href="/"  className="text-lg font-bold block">Research and Innovation Pediatric Surgical Society</Link>
+                  <Link href="/"  className="text-xs text-pink-600 block">5-7 DECEMBER 2025 | AIIMS, NEW DELHI</Link>
+                </div>
+              </div>
+              {/* Hamburger Button */}
+              <button
+               onClick={toggleMenu}
+               className="md:hidden p-2 rounded focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-600"
+               aria-label="Toggle navigation menu"
+               aria-expanded={isMenuOpen}
+               aria-controls="mobile-menu" // Add this if your menu has an ID
+               >
+               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+               <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+               </svg>
+               </button>
+               <nav id="mobile-menu">
+               {/* Menu Items Here */}
+               </nav>
+
+              {/* Navigation Links and Register Button */}
+              <div className={`w-full md:w-auto md:flex md:items-center transition-all duration-300 ease-in-out ${isMenuOpen ? 'block' : 'hidden'}`}> {/* Consistent class names and vertical centering */}
+                <nav className="flex flex-col md:flex-row items-center justify-center text-sm md:text-base py-4 md:py-0 md:flex-grow"> {/* Consistent class names and vertical centering */}
+                  <ul className="flex flex-col md:flex-row items-center justify-center gap-x-6 gap-y-2 mb-2 md:mb-0"> {/* Consistent class names and vertical centering */}
+                    {/* About Dropdown */}
+                    {/* About Dropdown - Using provided structure */}
+                    <li className="relative group"> {/* Added relative and group classes for dropdown */}
+                      <Link href="" onClick={toggleMenu} className="block px-4 py-2 md:p-0 hover:underline font-semibold flex items-center cursor-pointer"> {/* Added cursor-pointer */}
+                        About <span className="ml-1 text-xs">▼</span>
+                      </Link>
+                      {/* Dropdown Menu */}
+                      {/* Add JS for click/toggle and accessibility */}
+                      <div id="dropdownHover" className="z-10 hidden group-hover:block bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 absolute"> {/* Added absolute */}
+                          <ul className="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
+                            <li>
+                              <Link href="/about/general-info" onClick={toggleMenu} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">General Information</Link> {/* Adapted link */}
+                            </li>
+                            <li>
+                              <Link href="/about/welcome-letter" onClick={toggleMenu} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Welcome Letter</Link> {/* Adapted link */}
+                            </li>
+                            <li>
+                              <Link href="/about/board-committees" onClick={toggleMenu} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Board Committees</Link> {/* Adapted link */}
+                            </li>
+                            <li>
+                              <Link href="/about/about-us" onClick={toggleMenu} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">About RIPSSCON</Link> {/* Adapted link */}
+                            </li>
+                             <li>
+                              <Link href="/about/mission-vision" onClick={toggleMenu} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Mission & Vision</Link> {/* Adapted link */}
+                            </li>
+                             <li>
+                              <Link href="/contact" onClick={toggleMenu} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Contact Us</Link> {/* Adapted link */}
+                            </li>
+                          </ul>
+                      </div>
+                    </li>
+                    {/* Program Dropdown */}
+                    <li className="relative group"> {/* Added relative and group classes for dropdown */}
+                      <Link href="/schedule" onClick={toggleMenu} className="block px-4 py-2 md:p-0 hover:underline font-semibold flex items-center cursor-pointer"> {/* Added cursor-pointer */}
+                        Program <span className="ml-1 text-xs">▼</span>
+                      </Link>
+                      {/* Dropdown Menu */}
+                      {/* Add JS for click/toggle and accessibility */}
+                      {/* Replace placeholder links with actual program links */}
+                      <div id="programDropdown" className="z-10 hidden group-hover:block bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 absolute"> {/* Styled dropdown */}
+                          <ul className="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="programDropdownButton">
+                            <li>
+                              <Link href="/schedule/scientific-program" onClick={toggleMenu} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Scientific Program</Link> {/* Placeholder link */}
+                            </li>
+                            <li>
+                              <Link href="/schedule/research-workshop" onClick={toggleMenu} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">RIPSCCON Research Workshop</Link> {/* Added link to Research Workshop page */}
+                            </li>
+                            <li>
+                              <Link href="/schedule/cme-accreditation" onClick={toggleMenu} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">CME Accreditation</Link> {/* Added link to CME Accreditation page */}
+                            </li>
+                            {/* Add more program items here */}
+                          </ul>
+                      </div>
+                    </li>
+                    {/* Abstracts Dropdown */}
+                    <li className="relative group"> {/* Added relative and group classes for dropdown */}
+                      <Link href="/speakers" onClick={toggleMenu} className="block px-4 py-2 md:p-0 hover:underline font-semibold flex items-center cursor-pointer"> {/* Added cursor-pointer */}
+                        Abstracts <span className="ml-1 text-xs">▼</span>
+                      </Link>
+                      {/* Dropdown Menu */}
+                      {/* Add JS for click/toggle and accessibility */}
+                      <div id="abstractsDropdown" className="z-10 hidden group-hover:block bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 absolute"> {/* Styled dropdown */}
+                          <ul className="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="abstractsDropdownButton">
+                            <li>
+                              <Link href="/abstracts/submission" onClick={toggleMenu} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Abstract Submission</Link> {/* Added link to Abstract Submission page */}
+                            </li>
+                            <li>
+                              <Link href="/abstracts/topics" onClick={toggleMenu} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Abstract Topics</Link> {/* Added link to Abstract Topics page */}
+                            </li>
+                            <li>
+                              <Link href="/abstracts/tips" onClick={toggleMenu} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Abstract Tips</Link> {/* Added link to Abstract Tips page */}
+                            </li>
+                          </ul>
+                      </div>
+                    </li>
+                    {/* Registration Dropdown */}
+                    <li className="relative group"> {/* Added relative and group classes for dropdown */}
+                      <Link href="/register" onClick={toggleMenu} className="block px-4 py-2 md:p-0 hover:underline font-semibold flex items-center cursor-pointer"> {/* Added cursor-pointer */}
+                        Registration <span className="ml-1 text-xs">▼</span>
+                      </Link>
+                      {/* Dropdown Menu */}
+                      {/* Add JS for click/toggle and accessibility */}
+                      <div id="registrationDropdown" className="z-10 hidden group-hover:block bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 absolute"> {/* Styled dropdown */}
+                          <ul className="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="registrationDropdownButton">
+                            <li>
+                              <Link href="/register" onClick={toggleMenu} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Register</Link> {/* Placeholder link */}
+                            </li>
+                            {/* Add more registration items if needed */}
+                          </ul>
+                      </div>
+                    </li>
+                    {/* Support Dropdown */}
+                    <li className="relative group"> {/* Added relative and group classes for dropdown */}
+                      <Link href="/contact" onClick={toggleMenu} className="block px-4 py-2 md:p-0 hover:underline font-semibold flex items-center cursor-pointer"> {/* Added cursor-pointer */}
+                        Support <span className="ml-1 text-xs">▼</span>
+                      </Link>
+                      {/* Dropdown Menu */}
+                      {/* Add JS for click/toggle and accessibility */}
+                      <div id="supportDropdown" className="z-10 hidden group-hover:block bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 absolute"> {/* Styled dropdown */}
+                          <ul className="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="supportDropdownButton">
+                            <li>
+                              <Link href="/support/prospectus" onClick={toggleMenu} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Prospectus</Link> {/* Placeholder link */}
+                            </li>
+                            <li>
+                              <Link href="/support/exhibition" onClick={toggleMenu} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Exhibition</Link> {/* Placeholder link */}
+                            </li>
+                            <li>
+                              <Link href="/support/promotional-toolkit" onClick={toggleMenu} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Promotional Toolkit for Supporters & Exhibitors</Link> {/* Added link to Promotional Toolkit page */}
+                            </li>
+                             <li>
+                              <Link href="/contact" onClick={toggleMenu} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Contact Us</Link> {/* Placeholder link */}
+                            </li>
+                          </ul>
+                      </div>
+                    </li>
+                    {/* Hotels Dropdown */}
+                    <li className="relative group"> {/* Added relative and group classes for dropdown */}
+                      <Link href="/contact" onClick={toggleMenu} className="block px-4 py-2 md:p-0 hover:underline font-semibold flex items-center cursor-pointer"> {/* Added cursor-pointer */}
+                        Hotels <span className="ml-1 text-xs">▼</span>
+                      </Link>
+                      {/* Dropdown Menu */}
+                      {/* Add JS for click/toggle and accessibility */}
+                      <div id="hotelsDropdown" className="z-10 hidden group-hover:block bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 absolute"> {/* Styled dropdown */}
+                          <ul className="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="hotelsDropdownButton">
+                            <li>
+                              <Link href="/hotels/book" onClick={toggleMenu} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Book Your Hotel</Link> {/* Placeholder link */}
+                            </li>
+                            <li>
+                              <Link href="/hotels/why-book-through-us" onClick={toggleMenu} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Why book through us?</Link> {/* Added link to Why book through us? page */}
+                            </li>
+                          </ul>
+                      </div>
+                    </li>
+                    {/* Resources Dropdown */}
+                    <li className="relative group"> {/* Added relative and group classes for dropdown */}
+                      <Link href="/contact" onClick={toggleMenu} className="block px-4 py-2 md:p-0 hover:underline font-semibold flex items-center cursor-pointer"> {/* Added cursor-pointer */}
+                        Resources <span className="ml-1 text-xs">▼</span>
+                      </Link>
+                      {/* Dropdown Menu */}
+                      {/* Add JS for click/toggle and accessibility */}
+                      <div id="resourcesDropdown" className="z-10 hidden group-hover:block bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 absolute"> {/* Styled dropdown */}
+                          <ul className="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="resourcesDropdownButton">
+                            <li>
+                              <Link href="/resources/promotional-toolkit" onClick={toggleMenu} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Promotional Toolkit</Link> {/* Placeholder link */}
+                            </li>
+                            <li>
+                              <Link href="/resources/related-events" onClick={toggleMenu} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Related Events & Societies</Link> {/* Placeholder link */}
+                            </li>
+                          </ul>
+                      </div>
+                    </li>
+                    {/* Previous ventures Dropdown */}
+                    <li className="relative group"> {/* Added relative and group classes for dropdown */}
+                      <Link href="#" onClick={toggleMenu} className="block px-4 py-2 md:p-0 hover:underline font-semibold flex items-center cursor-pointer"> {/* Added cursor-pointer */}
+                        Previous ventures <span className="ml-1 text-xs">▼</span>
+                      </Link>
+                      {/* Dropdown Menu */}
+                      {/* Add JS for click/toggle and accessibility */}
+                      <div id="previousVenturesDropdown" className="z-10 hidden group-hover:block bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 absolute"> {/* Styled dropdown */}
+                          <ul className="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="previousVenturesDropdownButton">
+                            <li>
+                              <Link href="/previous-ventures/grant-writing" onClick={toggleMenu} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Grant Writing</Link> {/* Placeholder link */}
+                            </li>
+                            <li>
+                              <Link href="/previous-ventures/pmas" onClick={toggleMenu} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">PMAS</Link> {/* Placeholder link */}
+                            </li>
+                          </ul>
+                      </div>
+                    </li>
+                  </ul>
+                  {/* E-Learning Portal Link */}
+                  <Link href="/e-learning" onClick={toggleMenu} className="block px-4 py-2 md:p-0 hover:underline text-pink-600 font-semibold text-xs md:ml-6">E-LEARNING PORTAL</Link> {/* Added E-Learning link */}
+                </nav>
+                {/* Register Button */}
+                <Link href="/register" className="inline-block bg-cyan-600 text-white px-6 py-2 rounded-md font-semibold hover:bg-blue-900 transition-colors duration-200 text-sm md:text-base text-center md:ml-auto"> {/* Consistent class names and push to the right */}
+                  REGISTER
+                </Link>
+              </div>
+            </div>
+          </header>
+
+          {/* Main Content - children will be rendered here */}
+          <main className="flex-grow container mx-auto px-4 py-6 md:px-6 md:py-8">
+            {children}
+          </main>
+
+        </div>
+        {/* Footer */}
+        <Footer />
+        <ScrollCircleIndicator />
+      </body>
+    </html>
+  );
+}
