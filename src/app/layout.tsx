@@ -1,5 +1,5 @@
 "use client"; // Needed for useState
-import type { Metadata } from "next";
+
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from 'next/link';
 import { useState } from 'react';
@@ -16,6 +16,8 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+
 
 export default function RootLayout({
   children,
@@ -36,18 +38,21 @@ export default function RootLayout({
         <div className="flex flex-col min-h-screen">
           {/* Header */}
           <header className="bg-white text-gray-800  z-20 shadow-md"> {/* Changed background to white, removed padding */}
-            <div className="container mx-auto flex flex-wrap justify-between items-center py-4 px-3 md:px-4"> {/* Corrected class names for layout */}
+            <div className="container mx-auto flex flex-wrap items-center py-4 px-3 md:px-4"> {/* Corrected class names for layout */}
                {/* Logos and Event Info */}
-              {/* Logo to move */}
-              <div className="flex items-center flex-shrink-0 mr-auto"> {/* Added flex-shrink-0 and mr-auto */}
-                <img src="/logo1.png" alt="Logo 1" className="h-30" />
-                <img src="/logo2.jpeg" alt="Logo 2" className="h-30" />
-                <img src="/logo3.jpeg" alt="Logo 3" className="h-30" />
+              {/* Logos and Event Info */}
+<div className="flex flex-col md:flex-row items-center flex-shrink-0 mr-auto">
+  {/* Container for logos */}
+  <div className="flex flex-row items-center gap-2">
+    <img src="/logo1.png" alt="Logo 1" className="h-12 md:h-30" />
+    <img src="/logo2.jpeg" alt="Logo 2" className="h-12 md:h-30" />
+    <img src="/logo3.jpeg" alt="Logo 3" className="h-12 md:h-30" />
+  </div> {/* End container for logos */}
 
-                <div className="flex flex-col justify-center">
-                  <Link href="/" className="text-lg font-bold block">10th World Conference  of the</Link>
-                  <Link href="/"  className="text-lg font-bold block">Research and Innovation Pediatric Surgical Society</Link>
-                  <Link href="/"  className="text-xs text-pink-600 block">5-7 DECEMBER 2025 | AIIMS, NEW DELHI</Link>
+                <div className="flex flex-col justify-center text-center md:text-left"> {/* Center text on small screens */}
+                  <Link href="/" className="text-base md:text-lg font-bold block">10th World Conference  of the</Link>
+                  <Link href="/"  className="text-base md:text-lg font-bold block">Research and Innovation Pediatric Surgical Society</Link>
+                  <Link href="/"  className="text-xxs md:text-xs text-pink-600 block">5-7 DECEMBER 2025 | AIIMS, NEW DELHI</Link>
                 </div>
               </div>
               {/* Hamburger Button */}
@@ -55,7 +60,7 @@ export default function RootLayout({
                onClick={toggleMenu}
                className="md:hidden p-2 rounded focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-600"
                aria-label="Toggle navigation menu"
-               aria-expanded={isMenuOpen}
+               aria-expanded="false"
                aria-controls="mobile-menu" // Add this if your menu has an ID
                >
                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -67,9 +72,9 @@ export default function RootLayout({
                </nav>
 
               {/* Navigation Links and Register Button */}
-              <div className={`w-full md:w-auto md:flex md:items-center transition-all duration-300 ease-in-out ${isMenuOpen ? 'block' : 'hidden'}`}> {/* Consistent class names and vertical centering */}
-                <nav className="flex flex-col md:flex-row items-center justify-center text-sm md:text-base py-4 md:py-0 md:flex-grow"> {/* Consistent class names and vertical centering */}
-                  <ul className="flex flex-col md:flex-row items-center justify-center gap-x-6 gap-y-2 mb-2 md:mb-0"> {/* Consistent class names and vertical centering */}
+              <div className={`w-full md:w-auto md:flex md:items-center transition-all duration-300 ease-in-out ${isMenuOpen ? 'block' : 'hidden'} md:block`}> {/* Consistent class names and vertical centering, ensure visible on md screens */}
+                <nav className="flex flex-col md:flex-row items-center justify-center text-sm md:text-base py-4 md:py-0 md:flex-grow w-full md:w-auto"> {/* Consistent class names and vertical centering, added width */}
+                  <ul className="flex flex-col md:flex-row items-center justify-center gap-x-6 gap-y-2 mb-2 md:mb-0 w-full md:w-auto"> {/* Consistent class names and vertical centering, added width */}
                     {/* About Dropdown */}
                     {/* About Dropdown - Using provided structure */}
                     <li className="relative group"> {/* Added relative and group classes for dropdown */}
@@ -244,7 +249,7 @@ export default function RootLayout({
                   <Link href="/e-learning" onClick={toggleMenu} className="block px-4 py-2 md:p-0 hover:underline text-pink-600 font-semibold text-xs md:ml-6">E-LEARNING PORTAL</Link> {/* Added E-Learning link */}
                 </nav>
                 {/* Register Button */}
-                <Link href="/register" className="inline-block bg-cyan-600 text-white px-6 py-2 rounded-md font-semibold hover:bg-blue-900 transition-colors duration-200 text-sm md:text-base text-center md:ml-auto"> {/* Consistent class names and push to the right */}
+                <Link href="/register" className="inline-block bg-cyan-600 text-white px-6 py-2 rounded-md font-semibold hover:bg-blue-900 transition-colors duration-200 text-sm md:text-base text-center w-full md:w-auto mt-4 md:mt-0 md:ml-auto"> {/* Consistent class names and push to the right, added responsive width and margin */}
                   REGISTER
                 </Link>
               </div>
@@ -264,3 +269,4 @@ export default function RootLayout({
     </html>
   );
 }
+

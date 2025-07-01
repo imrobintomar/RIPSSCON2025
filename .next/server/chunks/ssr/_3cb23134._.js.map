@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/groot/Desktop/RIPSSCON2025/src/app/loading.tsx"],"sourcesContent":["import React from 'react';\n\nexport default function Loading() {\n  return (\n    <div className=\"flex items-center justify-center min-h-screen\">\n      {/* You can replace this with a more complex loader component */}\n      <div className=\"w-16 h-16 border-4 border-dashed rounded-full animate-spin border-pink-600\"></div>\n    </div>\n  );\n}"],"names":[],"mappings":";;;;;AAEe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;kBAEb,cAAA,8OAAC;YAAI,WAAU;;;;;;;;;;;AAGrB","debugId":null}},
+    {"offset": {"line": 33, "column": 0}, "map": {"version":3,"sources":["file:///Users/groot/Desktop/RIPSSCON2025/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = require('../../module.compiled').vendored[\n  'react-rsc'\n].ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":";AAAAA,OAAOC,OAAO,GAAGC,QAAQ,4HAAyBC,QAAQ,CACxD,YACD,CAACC,kBAAkB","ignoreList":[0],"debugId":null}}]
+}
