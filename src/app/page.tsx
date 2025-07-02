@@ -156,12 +156,12 @@ export default function Home() {
               <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-4 text-white"> {/* Adjusted font size for smaller screens */}
                 Register Now!
               </h2>
-              <p className=" sm:text-lg mb-8 max-w-4xl mx-auto px-4 text-white font-bold"> {/* Adjusted text color, max-width, and added horizontal padding */}
+              <p className="hero-slogan sm:text-lg mb-8 max-w-4xl mx-auto px-4  font-bold text-white"> {/* Adjusted text color, max-width, and added horizontal padding */}
                 LET'S COME TOGETHER AT RIPSSCON2025 TO ADVANCE CHILD CARE GLOBALLY, THROUGH RESEARCH, EDUCATION & COLLABORATION.
               </p>
 
               {/* Register Here Button */}
-              <Link href="/register" className="inline-block bg-cyan-600 text-white px-6 py-2 sm:px-8 sm:py-3 rounded-full font-semibold hover:bg-cyan-700 transition-colors duration-200 text-base sm:text-lg shadow-lg"> {/* Adjusted padding and text size for smaller screens */}
+              <Link href="/register" className="inline-block bg-[#002060] text-white px-6 py-2 sm:px-8 sm:py-3 rounded-full font-semibold hover:bg-[#002060] transition-colors duration-200 text-base sm:text-lg shadow-lg"> {/* Adjusted padding and text size for smaller screens */}
                 Register Here
               </Link>
             </div>
@@ -202,7 +202,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12"> {/* Increased gap, removed items-center */}
           {/* Left Column: Welcome Letter Text */}
           <div className="h-full"> {/* Added h-full */}
-            {/* Title */}      <h2 className="text-4xl font-bold text-cyan-600 mb-6">Join Us at RIPSSCON 2025: Advancing the Frontiers of Pediatric Surgery and Genomic Innovation
+            {/* Title */}      <h2 className="text-4xl font-bold text-[#002060] mb-6">Join Us at RIPSSCON 2025: Advancing the Frontiers of Pediatric Surgery and Genomic Innovation
 </h2> {/* Increased font size and margin-bottom */}
             {/* Welcome Letter Snippet */}
             <div className="prose max-w-none text-gray-700 text-sm sm:text-base"> {/* Using prose for basic text styling, adjusted text color and size */}
@@ -215,7 +215,7 @@ export default function Home() {
             </div>
              {/* Welcome Letter Button */}
             <div className="mt-8"> {/* Increased margin-top */}
-              <Link href="/about/welcome-letter" className="inline-block bg-cyan-600 text-white px-8 py-3 rounded-md font-semibold hover:bg-cyan-900 transition-colors duration-200 text-base md:text-lg"> {/* Adjusted padding and text size */}
+              <Link href="/about/welcome-letter" className="inline-block bg-[#002060] text-white px-8 py-3 rounded-md font-semibold hover:bg-[#002060] transition-colors duration-200 text-base md:text-lg"> {/* Adjusted padding and text size */}
                 Welcome Letter
               </Link>
             </div>
@@ -232,7 +232,7 @@ export default function Home() {
       <section className="container mx-auto px-4 py-8"> {/* Added padding */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-4"> {/* Responsive grid, added horizontal padding */}
           {/* Block 1: About WSPID (Blue) */}
-          <div className="bg-cyan-600 text-white p-4 sm:p-6 rounded-lg shadow-md flex flex-col items-center text-center"> {/* Styled block, adjusted padding */}
+          <div className="bg-[#002060] text-white p-4 sm:p-6 rounded-lg shadow-md flex flex-col items-center text-center"> {/* Styled block, adjusted padding */}
             {/* Icon Placeholder */}
             <span className="text-4xl mb-4">🔬</span> {/* Placeholder icon */}
             <h3 className="text-lg sm:text-xl font-semibold mb-2">About<br />RIPSCCON2025</h3> {/* Title with line break, adjusted font size */}

@@ -112,7 +112,7 @@ const ContactForm = () => {
         <button
           type="submit"
           disabled={loading} // Disable button while loading
-          className={`w-full bg-cyan-700 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out ${
+          className={`w-full bg-[#002060] hover:bg-blue-500 text-white font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out ${
             loading ? 'opacity-50 cursor-not-allowed' : ''
           }`}
         >

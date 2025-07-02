@@ -52,7 +52,7 @@ const ProfileCard = ({ items })=>{
                             rel: item.linkedinId ? "noopener noreferrer" : undefined,
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                    className: " text-xl font-medium   md:whitespace-nowrap md:truncate md:opacity-0 group-hover/article:opacity-100 group-focus-within/article:opacity-100 md:translate-y-2 group-hover/article:translate-y-0 group-focus-within/article:translate-y-0 transition duration-200 ease-[cubic-bezier(.5,.85,.25,1.8)] group-hover/article:delay-300 group-focus-within/article:delay-300",
+                                    className: " text-3xl font-medium   md:whitespace-nowrap md:truncate md:opacity-0 group-hover/article:opacity-100 group-focus-within/article:opacity-100 md:translate-y-2 group-hover/article:translate-y-0 group-focus-within/article:translate-y-0 transition duration-200 ease-[cubic-bezier(.5,.85,.25,1.8)] group-hover/article:delay-300 group-focus-within/article:delay-300",
                                     children: item?.title
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/ProfileCard.tsx",
@@ -60,7 +60,7 @@ const ProfileCard = ({ items })=>{
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-3xl font-medium  md:whitespace-nowrap md:truncate",
+                                    className: "text-xl font-medium  md:whitespace-nowrap md:truncate",
                                     children: item?.description
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/ProfileCard.tsx",
@@ -68,7 +68,7 @@ const ProfileCard = ({ items })=>{
                                     columnNumber: 17
                                 }, this),
                                 item.linkedinId && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-blue-300 text-sm mt-1",
+                                    className: "text-blue-800 text-sm mt-1",
                                     children: "View LinkedIn Profile"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/ProfileCard.tsx",
@@ -168,25 +168,25 @@ const boardMembersData = [
         profileImageUrl: '/board_com_pic/M_Sriniwas_director-221.jpg'
     },
     {
-        name: 'S. Agarwala',
+        name: 'Sandeep Agarwala',
         department: 'Chairperson',
         linkedinId: 'S Aggrawala',
         profileImageUrl: '/board_com_pic/s_aggrawala.jpg'
     },
     {
-        name: 'Dr. Prabudh Goel',
+        name: 'Prabudh Goel',
         department: 'Organizing Secretary',
         linkedinId: 'prabudh-goel-163272151/?originalSubdomain=in',
         profileImageUrl: '/board_com_pic/PG_pic.jpg'
     },
     {
-        name: 'Anjan Kr Dhua',
+        name: 'Anjan Kumar Dhua',
         department: 'Organizing Secretary',
         linkedinId: 'dr-anjan-dhua-0a354941/?originalSubdomain=in',
         profileImageUrl: '/board_com_pic/Dr_Anjan_Dhua.jpg'
     },
     {
-        name: 'Devendra Kr Yadav',
+        name: 'Devendra Kumar Yadav',
         department: 'Organizing Secretary',
         linkedinId: 'Devendra Kr Yadav',
         profileImageUrl: '/board_com_pic/Dr_Devendra_Yadav.jpg'

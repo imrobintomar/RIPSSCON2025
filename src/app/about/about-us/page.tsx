@@ -77,7 +77,7 @@ const AboutPage = () => {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-2xl md:text-3xl font-semibold text-cyan-700 mb-4 border-b pb-2">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#002060] mb-4 border-b pb-2">
 
           </h2>
           <p></p>
@@ -91,7 +91,7 @@ const AboutPage = () => {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-2xl md:text-3xl font-semibold text-cyan-700 mb-4 border-b pb-2">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#002060] mb-4 border-b pb-2">
 
           </h2>
           <p></p>

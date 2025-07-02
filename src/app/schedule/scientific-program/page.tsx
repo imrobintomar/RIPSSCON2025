@@ -32,17 +32,17 @@ const ScientificProgramPage = () => {
 
       {/* Main Content */}
       <div className="container mx-auto px-4 py-8 text-center">
-        <h1 className="text-3xl md:text-4xl font-bold text-cyan-600 mb-6">
+        <h1 className="text-3xl md:text-4xl font-bold text-[#002060] mb-6">
           The latest updates by world-renowned experts in the field of pediatric infectious diseases.
         </h1>
         <p className="text-gray-700 text-lg mb-8 max-w-3xl mx-auto">
           The International Scientific Committee has planned a diverse and interesting RIPSSCON 2025 scientific program for you. As part of the program, we will have a scale of different educational and scientific sessions addressing your needs as a professional in pediatric infectious diseases that will provide you with take-home value.
         </p>
         <div className="flex justify-center gap-4 mb-8">
-          <Link href="#" className="bg-cyan-600 hover:bg-cyan-900 text-white font-semibold py-3 px-6 rounded-md transition-colors duration-200">
+          <Link href="#" className="bg-[#002060] hover:bg-[#002060] text-white font-semibold py-3 px-6 rounded-md transition-colors duration-200">
             Interactive Program
           </Link>
-          <Link href="#" className="bg-cyan-600 hover:bg-cyan-900 text-white font-semibold py-3 px-6 rounded-md transition-colors duration-200">
+          <Link href="#" className="bg-[#002060] hover:bg-[#002060] text-white font-semibold py-3 px-6 rounded-md transition-colors duration-200">
             Program at a Glance
           </Link>
         </div>

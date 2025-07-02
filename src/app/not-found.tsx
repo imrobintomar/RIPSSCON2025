@@ -39,7 +39,7 @@ const NotFoundPage = () => {
         <p className="text-gray-700 mb-8">
           The page you are looking for does not exist.
         </p>
-        <Link href="/" className="inline-block bg-blue-600 hover:bg-cyan-700 text-white font-semibold py-2 px-4 rounded-md transition-colors duration-200">
+        <Link href="/" className="inline-block bg-blue-600 hover:bg-[#002060] text-white font-semibold py-2 px-4 rounded-md transition-colors duration-200">
           Go to Homepage
         </Link>
       </div>

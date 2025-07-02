@@ -88,7 +88,7 @@ const SocialIcon = ({ href, icon })=>/*#__PURE__*/ (0, __TURBOPACK__imported__mo
         href: href,
         target: "_blank",
         rel: "noopener noreferrer",
-        className: "text-gray-400 hover:text-white transition-colors text-2xl focus:outline-none focus:ring-2 focus:ring-cyan-600",
+        className: "text-white hover:opacity-80 transition-opacity text-2xl focus:outline-none focus:ring-2 focus:ring-[#002060]",
         children: icon
     }, void 0, false, {
         fileName: "[project]/src/app/components/footer.tsx",
@@ -139,7 +139,7 @@ const Footer = ()=>{
         }
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-        className: "bg-blue-800 text-white mt-auto",
+        className: "footer-bg-override text-white mt-auto",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "w-full py-8 md:py-12",
             children: [
@@ -154,7 +154,7 @@ const Footer = ()=>{
                                 alt: "Logo 3",
                                 width: 180,
                                 height: 180,
-                                className: "mb-6" // Add margin below logo
+                                className: "mb-6 white-logo-filter" // Add margin below logo and filter class
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/footer.tsx",
                                 lineNumber: 65,
@@ -241,7 +241,7 @@ const Footer = ()=>{
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "text-lg font-semibold mb-3",
+                                    className: "text-lg font-bold mb-3",
                                     children: "Contact Us"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/footer.tsx",
@@ -249,7 +249,7 @@ const Footer = ()=>{
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-sm text-cyan-300 font-medium",
+                                    className: "footer-text-override text-sm text-white font-medium mb-4",
                                     children: [
                                         "Department of Paediatric Surgery ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
@@ -257,7 +257,12 @@ const Footer = ()=>{
                                             lineNumber: 90,
                                             columnNumber: 48
                                         }, this),
-                                        "All India Institute of Medical Science, New Delhi 110029"
+                                        "All India Institute of Medical Science, New Delhi 110029",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                            fileName: "[project]/src/app/components/footer.tsx",
+                                            lineNumber: 91,
+                                            columnNumber: 71
+                                        }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/footer.tsx",
@@ -265,32 +270,21 @@ const Footer = ()=>{
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-sm text-cyan-300 font-medium",
-                                    children: [
-                                        "📞 ",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: "tel:+919999944511",
-                                            className: "hover:underline text-cyan-300",
-                                            children: "+91 99999444511"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/components/footer.tsx",
-                                            lineNumber: 94,
-                                            columnNumber: 18
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
+                                    className: "footer-text-override text-sm  border-t  text-white font-bold",
+                                    children: "Dr. Prabudh Goel"
+                                }, void 0, false, {
                                     fileName: "[project]/src/app/components/footer.tsx",
                                     lineNumber: 93,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-sm text-cyan-300 font-medium",
+                                    className: "footer-text-override text-sm text-white font-bold",
                                     children: [
-                                        "✉️ ",
+                                        "📞 ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: "mailto:drprabudhgoel@gmail.com",
-                                            className: "hover:underline text-cyan-300",
-                                            children: "drprabudhgoel@gmail.com"
+                                            href: "tel:+919999944511",
+                                            className: "footer-text-override hover:underline text-white font-bold",
+                                            children: "+91 99999444511"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/footer.tsx",
                                             lineNumber: 97,
@@ -300,6 +294,25 @@ const Footer = ()=>{
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/footer.tsx",
                                     lineNumber: 96,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "footer-text-override text-sm text-white font-bold",
+                                    children: [
+                                        "✉️ ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                            href: "mailto:drprabudhgoel@gmail.com",
+                                            className: "footer-text-override hover:underline text-white font-bold",
+                                            children: "drprabudhgoel@gmail.com"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/components/footer.tsx",
+                                            lineNumber: 100,
+                                            columnNumber: 18
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/app/components/footer.tsx",
+                                    lineNumber: 99,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -315,9 +328,9 @@ const Footer = ()=>{
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "text-center border-t border-cyan-700 pt-6 text-white ",
+                    className: "text-center border-t border-[#002060] pt-6 text-white ",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-sm text-white",
+                        className: "footer-text-override text-sm text-white font-medium",
                         children: [
                             "© ",
                             new Date().getFullYear(),
@@ -325,22 +338,22 @@ const Footer = ()=>{
                             ' ',
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 href: "/privacy-policy",
-                                className: "hover:underline text-white",
+                                className: "footer-text-override hover:underline text-white",
                                 children: "Privacy Policy"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/footer.tsx",
-                                lineNumber: 105,
+                                lineNumber: 108,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/components/footer.tsx",
-                        lineNumber: 103,
+                        lineNumber: 106,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/components/footer.tsx",
-                    lineNumber: 102,
+                    lineNumber: 105,
                     columnNumber: 9
                 }, this)
             ]
@@ -773,7 +786,7 @@ function RootLayout({ children }) {
                                                                                                     href: "/about/board-committees",
                                                                                                     onClick: toggleMenu,
                                                                                                     className: "block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white",
-                                                                                                    children: "Board Committees"
+                                                                                                    children: "Organizing  Committees"
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/src/app/layout.tsx",
                                                                                                     lineNumber: 96,
@@ -792,7 +805,7 @@ function RootLayout({ children }) {
                                                                                                     href: "/about/about-us",
                                                                                                     onClick: toggleMenu,
                                                                                                     className: "block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white",
-                                                                                                    children: "About RIPSSCON"
+                                                                                                    children: "About RIPSSCON2025 "
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/src/app/layout.tsx",
                                                                                                     lineNumber: 99,
@@ -1571,7 +1584,7 @@ function RootLayout({ children }) {
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                     href: "/register",
-                                                    className: "inline-block bg-cyan-600 text-white px-6 py-2 rounded-md font-semibold hover:bg-blue-900 transition-colors duration-200 text-sm md:text-base text-center w-full md:w-auto mt-4 md:mt-0 md:ml-auto",
+                                                    className: "inline-block bg-[#002060] text-white px-6 py-2 rounded-md font-semibold hover:bg-blue-900 transition-colors duration-200 text-sm md:text-base text-center w-full md:w-auto mt-4 md:mt-0 md:ml-auto",
                                                     children: [
                                                         " ",
                                                         "REGISTER"

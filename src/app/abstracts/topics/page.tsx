@@ -49,7 +49,7 @@ const AbstractTopicsPage = () => {
 
       {/* Main Content */}
       <div className="container mx-auto px-4 py-8">
-        <h2 className="text-center text-2xl md:text-3xl font-bold text-cyan-700 mb-8">
+        <h2 className="text-center text-2xl md:text-3xl font-bold text-[#002060] mb-8">
           Abstract Topics
         </h2>
         <ul className="list-disc list-inside text-gray-700 max-w-prose mx-auto">

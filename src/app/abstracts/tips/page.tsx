@@ -86,13 +86,13 @@ const AbstractTipsPage = () => {
 
       {/* Main Content */}
       <div className="container mx-auto px-4 py-8">
-        <h2 className="text-center text-2xl md:text-3xl font-bold text-cyan-600 mb-4">
+        <h2 className="text-center text-2xl md:text-3xl font-bold text-[#002060] mb-4">
           What Makes a Good Abstract Great?
         </h2>
-        <p className="text-center text-lg font-semibold text-cyan-600 mb-8">
+        <p className="text-center text-lg font-semibold text-[#002060] mb-8">
           A great abstract isn’t just a summary—it’s your first opportunity to communicate the relevance, originality, and impact of your work to peers, reviewers, and decision-makers. Whether you're submitting to a global conference or a high-impact journal, your abstract sets the tone. Here are our top 10 tips for crafting a standout abstract that resonates and delivers:
         </p>
-        <p className="text-center text-lg font-semibold text-cyan-600 mb-8">
+        <p className="text-center text-lg font-semibold text-[#002060] mb-8">
           Bonus Tip: Think Beyond Acceptance
 
 A great abstract doesn't just get accepted—it sparks discussions, citations, and collaborations. It should be a launching pad for your research visibility and professional growth. Take the time to craft it thoughtfully—your future audience is already reading.
@@ -103,7 +103,7 @@ A great abstract doesn't just get accepted—it sparks discussions, citations, a
           <div>
             {tips.map((tip) => (
               <div key={tip.number} className="mb-6">
-                <h3 className="text-xl font-bold text-cyan-600 mb-2">
+                <h3 className="text-xl font-bold text-[#002060] mb-2">
                   {tip.number}. {tip.title}
                 </h3>
                 <p className="text-gray-700">{tip.description}</p>

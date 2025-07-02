@@ -71,7 +71,7 @@ const PromotionalToolkitPage = () => {
 
       {/* Main Content */}
       <div className="container mx-auto px-4 py-8">
-        <h2 className="text-center text-2xl md:text-3xl font-bold text-cyan-700 mb-8">
+        <h2 className="text-center text-2xl md:text-3xl font-bold text-[#002060] mb-8">
           Promotional Toolkit for Supporters & Exhibitors
         </h2>
 

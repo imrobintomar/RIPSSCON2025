@@ -113,7 +113,7 @@ const SpeakersSection = ()=>{
         className: "mb-12 p-4 md:p-6 bg-white rounded-lg shadow-md scroll-mt-20",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                className: "text-2xl md:text-3xl font-semibold text-cyan-700 mb-6 border-b pb-2"
+                className: "text-2xl md:text-3xl font-semibold text-[#002060] mb-6 border-b pb-2"
             }, void 0, false, {
                 fileName: "[project]/src/app/about/welcome-letter/page.tsx",
                 lineNumber: 43,
@@ -155,7 +155,7 @@ const SpeakersSection = ()=>{
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-sm text-cyan-600 font-medium mb-2",
+                                className: "text-sm text-[#002060] font-medium mb-2",
                                 children: speaker.title
                             }, void 0, false, {
                                 fileName: "[project]/src/app/about/welcome-letter/page.tsx",

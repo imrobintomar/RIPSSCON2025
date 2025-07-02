@@ -77,7 +77,7 @@ const WhyBookThroughUsPage = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8"> {/* Adjusted grid for small screens */}
           {features.map((feature, index) => (
             <div key={index} className="bg-white rounded-lg shadow-md p-6 text-center flex flex-col items-center"> {/* Styled block as card */}
-              <h3 className="text-xl font-semibold text-cyan-600 mb-2">{feature.title}</h3> {/* Cyan heading */}
+              <h3 className="text-xl font-semibold text-[#002060] mb-2">{feature.title}</h3> {/* Cyan heading */}
               <p className="text-gray-700">{feature.description}</p>
             </div>
           ))}
@@ -100,7 +100,7 @@ const WhyBookThroughUsPage = () => {
 
         {/* Need Help Section */}
         <div className="mb-8">
-          <h3 className="text-xl font-bold text-cyan-700 mb-4">Need Help?</h3>
+          <h3 className="text-xl font-bold text-[#002060] mb-4">Need Help?</h3>
           <p className="text-gray-700 mb-2">
             For any questions or requests regarding hotel accommodations, please contact our hotel sales representative:
           </p>

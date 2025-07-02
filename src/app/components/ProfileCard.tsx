@@ -31,14 +31,14 @@ const ProfileCard: React.FC<ProfileCardProps> = ({ items }) => { // Destructure 
                 target={item.linkedinId ? "_blank" : undefined} // Open in new tab if linkedinId exists
                 rel={item.linkedinId ? "noopener noreferrer" : undefined} // Add rel attributes for external links
               >
-                <h1 className=' text-xl font-medium   md:whitespace-nowrap md:truncate md:opacity-0 group-hover/article:opacity-100 group-focus-within/article:opacity-100 md:translate-y-2 group-hover/article:translate-y-0 group-focus-within/article:translate-y-0 transition duration-200 ease-[cubic-bezier(.5,.85,.25,1.8)] group-hover/article:delay-300 group-focus-within/article:delay-300'>
+                <h1 className=' text-3xl font-medium   md:whitespace-nowrap md:truncate md:opacity-0 group-hover/article:opacity-100 group-focus-within/article:opacity-100 md:translate-y-2 group-hover/article:translate-y-0 group-focus-within/article:translate-y-0 transition duration-200 ease-[cubic-bezier(.5,.85,.25,1.8)] group-hover/article:delay-300 group-focus-within/article:delay-300'>
                   {item?.title}
                 </h1>
-                <span className='text-3xl font-medium  md:whitespace-nowrap md:truncate'>
+                <span className='text-xl font-medium  md:whitespace-nowrap md:truncate'>
                   {item?.description}
                 </span>
                 {item.linkedinId && (
-                  <span className="text-blue-300 text-sm mt-1">
+                  <span className="text-blue-800 text-sm mt-1">
                     View LinkedIn Profile
                   </span>
                 )}

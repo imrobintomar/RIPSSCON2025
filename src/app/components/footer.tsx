@@ -6,7 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Image from 'next/image'; // Import Image component
 
 const SocialIcon = ({ href, icon }: { href: string, icon: React.ReactNode }) => (
-  <a href={href} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors text-2xl focus:outline-none focus:ring-2 focus:ring-cyan-600">
+  <a href={href} target="_blank" rel="noopener noreferrer" className="text-white hover:opacity-80 transition-opacity text-2xl focus:outline-none focus:ring-2 focus:ring-[#002060]">
     {icon}
   </a>
 );
@@ -57,7 +57,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-blue-800 text-white mt-auto">
+    <footer className="footer-bg-override text-white mt-auto">
       <div className="w-full py-8 md:py-12"> {/* Added w-full, Removed px-4 and md:px-6 */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 px-4 md:px-6"> {/* Added padding back to the grid for content spacing */}
           {/* Left Column: Logo */}
@@ -67,7 +67,7 @@ const Footer = () => {
               alt="Logo 3"
               width={180} // Adjust width as needed
               height={180} // Adjust height as needed
-              className="mb-6" // Add margin below logo
+              className="mb-6 white-logo-filter" // Add margin below logo and filter class
             />
           </div>
 
@@ -85,24 +85,27 @@ const Footer = () => {
 
           {/* Right Column: Contact Us */}
           <div>
-            <h3 className="text-lg font-semibold mb-3">Contact Us</h3>
-            <p className="text-sm text-cyan-300 font-medium">
+            <h3 className="text-lg font-bold mb-3">Contact Us</h3>
+            <p className="footer-text-override text-sm text-white font-medium mb-4">
               Department of Paediatric Surgery <br />
-              All India Institute of Medical Science, New Delhi 110029
+              All India Institute of Medical Science, New Delhi 110029<br/>
             </p>
-            <p className="text-sm text-cyan-300 font-medium">
-              📞 <a href="tel:+919999944511" className="hover:underline text-cyan-300">+91 99999444511</a>
+            <p className="footer-text-override text-sm  border-t  text-white font-bold">
+              Dr. Prabudh Goel
             </p>
-            <p className="text-sm text-cyan-300 font-medium">
-              ✉️ <a href="mailto:drprabudhgoel@gmail.com" className="hover:underline text-cyan-300">drprabudhgoel@gmail.com</a>
+            <p className="footer-text-override text-sm text-white font-bold">
+              📞 <a href="tel:+919999944511" className="footer-text-override hover:underline text-white font-bold">+91 99999444511</a>
+            </p>
+            <p className="footer-text-override text-sm text-white font-bold">
+              ✉️ <a href="mailto:drprabudhgoel@gmail.com" className="footer-text-override hover:underline text-white font-bold">drprabudhgoel@gmail.com</a>
             </p>
           </div>
         </div>
 
-        <div className="text-center border-t border-cyan-700 pt-6 text-white ">
-          <p className="text-sm text-white">
+        <div className="text-center border-t border-[#002060] pt-6 text-white ">
+          <p className="footer-text-override text-sm text-white font-medium">
             &copy; {new Date().getFullYear()} RIPSSCON2025. Department of Paediatric Surgery All india institute of medical science  New Delhi |{' '}
-            <Link href="/privacy-policy" className="hover:underline text-white">
+            <Link href="/privacy-policy" className="footer-text-override hover:underline text-white">
               Privacy Policy
             </Link>
           </p>

@@ -34,7 +34,7 @@ const ContactPage = () => {
 
         {/* Contact Details Section */}
         <div className="mb-8">
-          <h2 className="text-2xl font-bold text-gray-800 mb-6 border-b-2 border-cyan-700 pb-2">Contact Details</h2>
+          <h2 className="text-2xl font-bold text-gray-800 mb-6 border-b-2 border-[#002060] pb-2">Contact Details</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             <div>
               <h3 className="text-xl font-semibold text-gray-700 mb-3">Our Location</h3>
@@ -47,17 +47,20 @@ const ContactPage = () => {
             </div>
             <div>
               <h3 className="text-xl font-semibold text-gray-700 mb-3">Contact Information</h3>
-              <p className="text-gray-700">
-                Email: <a href="mailto:[test@gmail.com]" className="text-blue-600">[drprabudhgoel@gmail.com]</a><br />
-                Phone: <a href="tel:[+9190000000]" className="text-blue-600">[+919999944511]</a>
-              </p>
+              
+              <p className="text-gray-700 mb-8 text-white font-bold ">
+              Dr. Prabudh Goel<br/>
+              Email: <a href="mailto:[drprabudhgoel@gmail.com]" className="text-blue-600 font-bold">drprabudhgoel@gmail.com</a><br />
+              Phone: <a href="tel:[+919999944511]" className="text-blue-600 font-bold ">+919999944511</a>
+                </p>
+                
             </div>
           </div>
         </div>
 
         {/* Contact Form Section */}
         <div className="mb-8">
-          <h2 className="text-2xl font-bold text-gray-800 mb-6 border-b-2 border-cyan-700 pb-2">Send us a Message</h2>
+          <h2 className="text-2xl font-bold text-gray-800 mb-6 border-b-2 border-[#002060] pb-2">Send us a Message</h2>
           <p className="text-gray-700 mb-8">
             Have questions or feedback? Fill out the form below and we'll get back to you as soon as possible.
           </p>
@@ -66,7 +69,7 @@ const ContactPage = () => {
 
         {/* Google Maps Section */}
         <div className="mb-8">
-          <h2 className="text-2xl font-bold text-gray-800 mb-6 border-b-2 border-cyan-700 pb-2">Find Us on the Map</h2>
+          <h2 className="text-2xl font-bold text-[#002060] mb-6 border-b-2 border-[#002060]  pb-2">Find Us on the Map</h2>
           <div className="aspect-w-16 aspect-h-9">
             {/* Replace the iframe src with your Google Maps embed code */}
             <iframe

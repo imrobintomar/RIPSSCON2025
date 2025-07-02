@@ -13,7 +13,7 @@ const RegisterPage = () => {
   const renderCollapsibleSection = (id: string, title: string, content: React.ReactNode) => (
     <React.Fragment>
       <button
-        className="flex justify-between items-center w-full py-4 text-left font-semibold text-blue-700 hover:text-blue-900 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-cyan-600"
+        className="flex justify-between items-center w-full py-4 text-left font-semibold text-blue-700 hover:text-blue-900 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#002060]"
         onClick={() => toggleSection(id)}
         aria-expanded={openSection === id}
         aria-controls={`content-${id}`}
@@ -53,7 +53,7 @@ const RegisterPage = () => {
 
       {/* Main Content */}
       <div className="container mx-auto px-4 py-8 dark:bg-gray-800 dark:text-white">
-        <h2 className="text-center text-3xl md:text-4xl font-bold text-cyan-600 mb-6">
+        <h2 className="text-center text-3xl md:text-4xl font-bold text-[#002060] mb-6">
           Registration Fees
         </h2>
         <p className="text-center text-gray-700 text-lg mb-8">
@@ -65,7 +65,7 @@ const RegisterPage = () => {
         <div className="overflow-x-auto mb-8">
           <table className="min-w-full bg-white border border-gray-200 rounded-md shadow-sm">
             <thead>
-              <tr className="bg-cyan-700 text-white">
+              <tr className="bg-[#002060] text-white">
                 <th className="py-3 px-4 text-center">Category</th>
                 <th className="py-3 px-4 text-center">Early Rate<br />Until Sep 3, 2025</th>
                 <th className="py-3 px-4 text-center">Regular Rate<br />Sep 4 - Oct 14, 2025</th>
@@ -114,8 +114,8 @@ const RegisterPage = () => {
 
         {/* Sticky REGISTER Button */}
         <div className="text-center mt-8 sticky bottom-4">
-          <Link href="/register" className="group relative overflow-hidden bg-cyan-600 text-white px-8 py-3 rounded-md font-semibold hover:bg-blue-900 transition-all duration-200 text-lg shadow-lg">
-            <span className="absolute inset-0 bg-cyan-800 opacity-0 group-hover:opacity-20 transition-opacity duration-300"></span>
+          <Link href="/register" className="group relative overflow-hidden bg-[#002060] text-white px-8 py-3 rounded-md font-semibold hover:bg-[#002060] transition-all duration-200 text-lg shadow-lg">
+            <span className="absolute inset-0 bg-[#002060] opacity-0 group-hover:opacity-20 transition-opacity duration-300"></span>
             REGISTER HERE
           </Link>
         </div>

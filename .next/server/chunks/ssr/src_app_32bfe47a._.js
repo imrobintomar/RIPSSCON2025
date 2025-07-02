@@ -250,7 +250,7 @@ function Home() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: " sm:text-lg mb-8 max-w-4xl mx-auto px-4 text-white font-bold",
+                                            className: "hero-slogan sm:text-lg mb-8 max-w-4xl mx-auto px-4  font-bold text-white",
                                             children: [
                                                 " ",
                                                 "LET'S COME TOGETHER AT RIPSSCON2025 TO ADVANCE CHILD CARE GLOBALLY, THROUGH RESEARCH, EDUCATION & COLLABORATION."
@@ -262,7 +262,7 @@ function Home() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                             href: "/register",
-                                            className: "inline-block bg-cyan-600 text-white px-6 py-2 sm:px-8 sm:py-3 rounded-full font-semibold hover:bg-cyan-700 transition-colors duration-200 text-base sm:text-lg shadow-lg",
+                                            className: "inline-block bg-[#002060] text-white px-6 py-2 sm:px-8 sm:py-3 rounded-full font-semibold hover:bg-[#002060] transition-colors duration-200 text-base sm:text-lg shadow-lg",
                                             children: [
                                                 " ",
                                                 "Register Here"
@@ -370,7 +370,7 @@ function Home() {
                                     " ",
                                     "      ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "text-4xl font-bold text-cyan-600 mb-6",
+                                        className: "text-4xl font-bold text-[#002060] mb-6",
                                         children: "Join Us at RIPSSCON 2025: Advancing the Frontiers of Pediatric Surgery and Genomic Innovation"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/page.tsx",
@@ -432,7 +432,7 @@ function Home() {
                                             " ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                 href: "/about/welcome-letter",
-                                                className: "inline-block bg-cyan-600 text-white px-8 py-3 rounded-md font-semibold hover:bg-cyan-900 transition-colors duration-200 text-base md:text-lg",
+                                                className: "inline-block bg-[#002060] text-white px-8 py-3 rounded-md font-semibold hover:bg-[#002060] transition-colors duration-200 text-base md:text-lg",
                                                 children: [
                                                     " ",
                                                     "Welcome Letter"
@@ -495,7 +495,7 @@ function Home() {
                         children: [
                             " ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "bg-cyan-600 text-white p-4 sm:p-6 rounded-lg shadow-md flex flex-col items-center text-center",
+                                className: "bg-[#002060] text-white p-4 sm:p-6 rounded-lg shadow-md flex flex-col items-center text-center",
                                 children: [
                                     " ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {

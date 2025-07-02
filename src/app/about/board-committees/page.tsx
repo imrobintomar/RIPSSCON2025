@@ -4,10 +4,10 @@ import WaveScrollEffect from '../../components/WaveScrollEffect'; // Import Wave
 
 const boardMembersData = [
   { name: 'M Sriniwas', department: 'Patron', linkedinId: 'M Sriniwas', profileImageUrl: '/board_com_pic/M_Sriniwas_director-221.jpg' },
-  { name: 'S. Agarwala', department: 'Chairperson', linkedinId: 'S Aggrawala', profileImageUrl: '/board_com_pic/s_aggrawala.jpg' },
-  { name: 'Dr. Prabudh Goel', department: 'Organizing Secretary', linkedinId: 'prabudh-goel-163272151/?originalSubdomain=in', profileImageUrl: '/board_com_pic/PG_pic.jpg' },
-  { name: 'Anjan Kr Dhua', department: 'Organizing Secretary', linkedinId: 'dr-anjan-dhua-0a354941/?originalSubdomain=in', profileImageUrl: '/board_com_pic/Dr_Anjan_Dhua.jpg' },
-  { name: 'Devendra Kr Yadav', department: 'Organizing Secretary', linkedinId: 'Devendra Kr Yadav', profileImageUrl: '/board_com_pic/Dr_Devendra_Yadav.jpg' },
+  { name: 'Sandeep Agarwala', department: 'Chairperson', linkedinId: 'S Aggrawala', profileImageUrl: '/board_com_pic/s_aggrawala.jpg' },
+  { name: 'Prabudh Goel', department: 'Organizing Secretary', linkedinId: 'prabudh-goel-163272151/?originalSubdomain=in', profileImageUrl: '/board_com_pic/PG_pic.jpg' },
+  { name: 'Anjan Kumar Dhua', department: 'Organizing Secretary', linkedinId: 'dr-anjan-dhua-0a354941/?originalSubdomain=in', profileImageUrl: '/board_com_pic/Dr_Anjan_Dhua.jpg' },
+  { name: 'Devendra Kumar Yadav', department: 'Organizing Secretary', linkedinId: 'Devendra Kr Yadav', profileImageUrl: '/board_com_pic/Dr_Devendra_Yadav.jpg' },
   { name: 'Vishesh Jain', department: 'Organizing Secretary', linkedinId: 'vishesh-jain-a84947188/?originalSubdomain=in', profileImageUrl: '/board_com_pic/Dr_Vishesh_Jain.jpg' },
   { name: 'Gali Divya', department: 'Joint Organizing Secretary', linkedinId: 'gali-divya-a45941265/?originalSubdomain=in', profileImageUrl: '/board_com_pic/gali_divya.jpg' },
 ];

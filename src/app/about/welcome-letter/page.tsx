@@ -40,7 +40,7 @@ const speakers = [
 const SpeakersSection = () => {
   return (
     <section id="speakers" className="mb-12 p-4 md:p-6 bg-white rounded-lg shadow-md scroll-mt-20">
-      <h2 className="text-2xl md:text-3xl font-semibold text-cyan-700 mb-6 border-b pb-2"></h2>
+      <h2 className="text-2xl md:text-3xl font-semibold text-[#002060] mb-6 border-b pb-2"></h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
         {speakers.map((speaker) => (
           <div key={speaker.id} className="bg-white border border-gray-200 p-4 rounded-lg shadow-md hover:shadow-lg text-center transition-all duration-300 transform hover:scale-105">
@@ -53,7 +53,7 @@ const SpeakersSection = () => {
               />
             </div>
             <h3 className="text-xl font-semibold text-gray-800 mb-1">{speaker.name}</h3>
-            <p className="text-sm text-cyan-600 font-medium mb-2">{speaker.title}</p>
+            <p className="text-sm text-[#002060] font-medium mb-2">{speaker.title}</p>
             <p className="text-sm text-gray-600">{speaker.bio}</p>
           </div>
         ))}

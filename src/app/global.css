@@ -228,6 +228,22 @@ p {
   right: 0;
   width: var(--scroll-progress-width, 0%);
   height: 5px; /* Adjust height as needed */
-  background-color: cyan; /* Adjust color as needed */
+  background-color: #002060; /* Adjust color as needed */
   z-index: 9999; /* Ensure it's on top */
+}
+
+.hero-slogan {
+  color: #ffffff !important;
+}
+
+.footer-text-override {
+  color: #ffffff !important;
+}
+
+.white-logo-filter {
+  filter: brightness(0) invert(1);
+}
+
+.footer-bg-override {
+  background-color: #002060 !important;
 }

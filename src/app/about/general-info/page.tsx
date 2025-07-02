@@ -44,22 +44,22 @@ const GeneralInfoPage = () => {
           {/* Left Column */}
           <div className="flex flex-col gap-6">
             {/* CONGRESS VENUE */}
-            <div className="bg-cyan-600 text-white rounded-md overflow-hidden"> {/* Added overflow-hidden */}
+            <div className="bg-[#002060] text-white rounded-md overflow-hidden"> {/* Added overflow-hidden */}
               <div
                 className="p-4 flex items-center cursor-pointer" // Made header clickable
-                onClick={() => toggleBlock('congress-venue')} // Added onClick handler
+                onClick={() => toggleBlock('conference-venue')} // Added onClick handler
               >
                 {/* Icon Placeholder */}
                 <span className="mr-4 text-2xl">ℹ️</span> {/* Placeholder icon */}
                 <span className="font-semibold">CONFERENCE VENUE</span>
               </div>
               {/* Collapsible Content */}
-             {expandedBlock === 'congress-venue' && ( // Conditionally render content
+             {expandedBlock === 'conference-venue' && ( // Conditionally render content
                <div className="bg-white text-gray-800 p-4"> {/* Styled content area */}
                  {/* Add actual content for Congress Venue here */}
                  <p>
                    {/* Replace with actual address */}
-                   <strong>All India Institute Of Medical Sciences<br />
+                   <strong> JL Auditorium All India Institute Of Medical Sciences<br />
                    Sri Aurobindo Marg, Ansari Nagar, Ansari Nagar East,<br />
                    New Delhi , 110029<br />
                    India </strong>
@@ -81,7 +81,7 @@ const GeneralInfoPage = () => {
             </div>
             {/* CONGRESS TIME ZONE */}
             {/* Apply the same structure and logic as above for other blocks */}
-            <div className="bg-cyan-600 text-white rounded-md overflow-hidden">
+            <div className="bg-[#002060] text-white rounded-md overflow-hidden">
               <div
                 className="p-4 flex items-center cursor-pointer"
                 onClick={() => toggleBlock('congress-time-zone')}
@@ -99,7 +99,7 @@ const GeneralInfoPage = () => {
               )}
             </div>
             {/* LANGUAGE */}
-             <div className="bg-cyan-600 text-white rounded-md overflow-hidden">
+             <div className="bg-[#002060] text-white rounded-md overflow-hidden">
               <div
                 className="p-4 flex items-center cursor-pointer"
                 onClick={() => toggleBlock('language')}
@@ -117,7 +117,7 @@ const GeneralInfoPage = () => {
               )}
             </div>
             {/* DRESS CODE */}
-             <div className="bg-cyan-600 text-white rounded-md overflow-hidden">
+             <div className="bg-[#002060] text-white rounded-md overflow-hidden">
               <div
                 className="p-4 flex items-center cursor-pointer"
                 onClick={() => toggleBlock('dress-code')}
@@ -135,7 +135,7 @@ const GeneralInfoPage = () => {
               )}
             </div>
             {/* CLIMATE */}
-             <div className="bg-cyan-600 text-white rounded-md overflow-hidden">
+             <div className="bg-[#002060] text-white rounded-md overflow-hidden">
               <div
                 className="p-4 flex items-center cursor-pointer"
                 onClick={() => toggleBlock('climate')}
@@ -154,7 +154,7 @@ const GeneralInfoPage = () => {
               )}
             </div>
             {/* CURRENCY */}
-             <div className="bg-cyan-600 text-white rounded-md overflow-hidden">
+             <div className="bg-[#002060] text-white rounded-md overflow-hidden">
               <div
                 className="p-4 flex items-center cursor-pointer"
                 onClick={() => toggleBlock('currency')}
@@ -173,7 +173,7 @@ const GeneralInfoPage = () => {
               )}
             </div>
             {/* CONGRESS FORMAT */}
-             <div className="bg-cyan-600 text-white rounded-md overflow-hidden">
+             <div className="bg-[#002060] text-white rounded-md overflow-hidden">
               <div
                 className="p-4 flex items-center cursor-pointer"
                 onClick={() => toggleBlock('congress-format')}
@@ -195,7 +195,7 @@ const GeneralInfoPage = () => {
           {/* Right Column */}
           <div className="flex flex-col gap-6">
             {/* CME ACCREDITATION */}
-             <div className="bg-cyan-600 text-white rounded-md overflow-hidden">
+             <div className="bg-[#002060] text-white rounded-md overflow-hidden">
               <div
                 className="p-4 flex items-center cursor-pointer"
                 onClick={() => toggleBlock('cme-accreditation')}
@@ -217,7 +217,7 @@ const GeneralInfoPage = () => {
             
             </div>
             {/* PRESCRIBER / NON-PRESCRIBER */}
-             <div className="bg-cyan-600 text-white rounded-md overflow-hidden">
+             <div className="bg-[#002060] text-white rounded-md overflow-hidden">
               <div
                 className="p-4 flex items-center cursor-pointer"
                 onClick={() => toggleBlock('prescriber-non-prescriber')}
@@ -235,7 +235,7 @@ const GeneralInfoPage = () => {
               )}
             </div>
             {/* VISA */}
-             <div className="bg-cyan-600 text-white rounded-md overflow-hidden">
+             <div className="bg-[#002060] text-white rounded-md overflow-hidden">
               <div
                 className="p-4 flex items-center cursor-pointer"
                 onClick={() => toggleBlock('visa')}
@@ -254,7 +254,7 @@ const GeneralInfoPage = () => {
               )}
             </div>
             {/* LETTER OF INVITATION */}
-             <div className="bg-cyan-600 text-white rounded-md overflow-hidden">
+             <div className="bg-[#002060] text-white rounded-md overflow-hidden">
               <div
                 className="p-4 flex items-center cursor-pointer"
                 onClick={() => toggleBlock('letter-of-invitation')}
@@ -272,7 +272,7 @@ const GeneralInfoPage = () => {
               )}
             </div>
             {/* GUEST ATTENDANCE POLICY */}
-             <div className="bg-cyan-600 text-white rounded-md overflow-hidden">
+             <div className="bg-[#002060] text-white rounded-md overflow-hidden">
               <div
                 className="p-4 flex items-center cursor-pointer"
                 onClick={() => toggleBlock('guest-attendance-policy')}
@@ -290,7 +290,7 @@ const GeneralInfoPage = () => {
               )}
             </div>
             {/* LIABILITY & INSURANCE */}
-             <div className="bg-cyan-600 text-white rounded-md overflow-hidden">
+             <div className="bg-[#002060] text-white rounded-md overflow-hidden">
               <div
                 className="p-4 flex items-center cursor-pointer"
                 onClick={() => toggleBlock('liability-insurance')}
@@ -313,7 +313,7 @@ The Conference Secretariat and Organisers cannot accept liability for personal a
               )}
             </div>
             {/* EXHIBITORS */}
-             <div className="bg-cyan-600 text-white rounded-md overflow-hidden">
+             <div className="bg-[#002060] text-white rounded-md overflow-hidden">
               <div
                 className="p-4 flex items-center cursor-pointer"
                 onClick={() => toggleBlock('exhibitors')}
@@ -331,7 +331,7 @@ The Conference Secretariat and Organisers cannot accept liability for personal a
               )}
             </div>
             {/* CONTACT US */}
-             <div className="bg-cyan-600 text-white rounded-md overflow-hidden">
+             <div className="bg-[#002060] text-white rounded-md overflow-hidden">
               <div
                 className="p-4 flex items-center cursor-pointer"
                 onClick={() => toggleBlock('contact-us')}

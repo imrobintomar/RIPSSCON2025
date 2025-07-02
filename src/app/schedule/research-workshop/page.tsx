@@ -27,12 +27,12 @@ const ResearchWorkshopPage = () => {
 
       {/* Main Content */}
       <div className="container mx-auto px-4 py-8 text-left max-w-prose">
-        <h2 className="text-2xl md:text-3xl font-bold text-cyan-600 mb-8">
+        <h2 className="text-2xl md:text-3xl font-bold text-[#002060] mb-8">
           Application is Open
         </h2>
 
         <div className="mb-8">
-          <h3 className="text-xl md:text-2xl font-bold text-cyan-700 mb-4">GENERAL</h3>
+          <h3 className="text-xl md:text-2xl font-bold text-[#002060] mb-4">GENERAL</h3>
           <p className="text-gray-700 mb-4">
             The World Society for Pediatric Infectious Diseases (WSPID) will be hosting a Research Workshop on <strong>28 October 2025</strong> from <strong>08:00-15:00</strong>, prior to the start of the main WSPID Congress. The workshop will be conducted in English.
           </p>
@@ -44,21 +44,21 @@ const ResearchWorkshopPage = () => {
         </div>
 
         <div className="mb-8">
-          <h3 className="text-xl md:text-2xl font-bold text-cyan-700 mb-4">AIMS</h3>
+          <h3 className="text-xl md:text-2xl font-bold text-[#002060] mb-4">AIMS</h3>
           <ul className="list-none text-gray-700 mb-4 ml-5">
             <li className="flex items-start mb-2">
-              <span className="mr-2 text-cyan-800">✔</span>
+              <span className="mr-2 text-[#002060]">✔</span>
               To assist early career researchers with the design, conduct, and presentation of pediatric infectious disease research in resource-challenged and resource-advantaged settings.
             </li>
             <li className="flex items-start">
-              <span className="mr-2 text-cyan-800">✔</span>
+              <span className="mr-2 text-[#002060]">✔</span>
               To facilitate interaction between early career and established researchers in an informal, collegial setting.
             </li>
           </ul>
         </div>
 
         <div className="mb-8">
-          <h3 className="text-xl md:text-2xl font-bold text-cyan-700 mb-4">PARTICIPANTS</h3>
+          <h3 className="text-xl md:text-2xl font-bold text-[#002060] mb-4">PARTICIPANTS</h3>
           <ul className="list-none text-gray-700 ml-5">
             {[
               "Participants will be selected among the applicants to attend the Research Workshop. These selected participants will have their 2025 WSPID Congress registration fee waived.",
@@ -78,7 +78,7 @@ const ResearchWorkshopPage = () => {
         </div>
 
         <div>
-          <h3 className="text-xl md:text-2xl font-bold text-cyan-700 mb-4">HOW TO APPLY</h3>
+          <h3 className="text-xl md:text-2xl font-bold text-[#002060] mb-4">HOW TO APPLY</h3>
           <ul className="list-none text-gray-700 ml-5">
             <li className="flex items-start mb-2 text-left ">
               <span className="mr-2 text-blue-800">✔</span>

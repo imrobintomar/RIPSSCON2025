@@ -93,10 +93,10 @@ export default function RootLayout({
                               <Link href="/about/welcome-letter" onClick={toggleMenu} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Welcome Letter</Link> {/* Adapted link */}
                             </li>
                             <li>
-                              <Link href="/about/board-committees" onClick={toggleMenu} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Board Committees</Link> {/* Adapted link */}
+                              <Link href="/about/board-committees" onClick={toggleMenu} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Organizing  Committees</Link> {/* Adapted link */}
                             </li>
                             <li>
-                              <Link href="/about/about-us" onClick={toggleMenu} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">About RIPSSCON</Link> {/* Adapted link */}
+                              <Link href="/about/about-us" onClick={toggleMenu} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">About RIPSSCON2025 </Link> {/* Adapted link */}
                             </li>
                              <li>
                               <Link href="/about/mission-vision" onClick={toggleMenu} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Mission & Vision</Link> {/* Adapted link */}
@@ -250,7 +250,7 @@ export default function RootLayout({
                   <Link href="/e-learning" onClick={toggleMenu} className="block px-4 py-2 md:p-0 hover:underline text-pink-600 font-semibold text-xs md:ml-6">E-LEARNING PORTAL</Link> {/* Added E-Learning link */}
                 </nav>
                 {/* Register Button */}
-                <Link href="/register" className="inline-block bg-cyan-600 text-white px-6 py-2 rounded-md font-semibold hover:bg-blue-900 transition-colors duration-200 text-sm md:text-base text-center w-full md:w-auto mt-4 md:mt-0 md:ml-auto"> {/* Consistent class names and push to the right, added responsive width and margin */}
+                <Link href="/register" className="inline-block bg-[#002060] text-white px-6 py-2 rounded-md font-semibold hover:bg-blue-900 transition-colors duration-200 text-sm md:text-base text-center w-full md:w-auto mt-4 md:mt-0 md:ml-auto"> {/* Consistent class names and push to the right, added responsive width and margin */}
                   REGISTER
                 </Link>
               </div>
