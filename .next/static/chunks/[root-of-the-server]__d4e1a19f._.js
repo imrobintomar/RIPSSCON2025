@@ -150,7 +150,7 @@ const Footer = ()=>{
                         " ",
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                src: "/logo3.png",
+                                src: "/ripsscon_logo.png",
                                 alt: "Logo 3",
                                 width: 180,
                                 height: 180,
@@ -231,55 +231,6 @@ const Footer = ()=>{
                                     fileName: "[project]/src/app/components/footer.tsx",
                                     lineNumber: 77,
                                     columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "mt-6",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "text-lg font-semibold mb-3",
-                                            children: "Subscribe for Updates"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/components/footer.tsx",
-                                            lineNumber: 84,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
-                                            onSubmit: handleSubscribe,
-                                            className: "flex flex-col sm:flex-row gap-2",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                                    type: "email",
-                                                    placeholder: "Enter your email",
-                                                    value: email,
-                                                    onChange: handleEmailChange,
-                                                    required: true,
-                                                    className: "p-2 rounded text-gray-800 text-sm w-full sm:w-auto focus:outline-none focus:ring-2 focus:ring-cyan-600"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/app/components/footer.tsx",
-                                                    lineNumber: 86,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                    type: "submit",
-                                                    disabled: loading,
-                                                    className: `bg-cyan-600 hover:bg-cyan-700 text-white text-sm font-semibold py-2 px-4 rounded transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-cyan-600 ${loading ? 'opacity-50 cursor-not-allowed' : ''}`,
-                                                    children: loading ? 'Subscribing...' : 'Subscribe'
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/app/components/footer.tsx",
-                                                    lineNumber: 94,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/app/components/footer.tsx",
-                                            lineNumber: 85,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/app/components/footer.tsx",
-                                    lineNumber: 83,
-                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
@@ -294,7 +245,7 @@ const Footer = ()=>{
                                     children: "Contact Us"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/footer.tsx",
-                                    lineNumber: 109,
+                                    lineNumber: 88,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -303,14 +254,14 @@ const Footer = ()=>{
                                         "Department of Paediatric Surgery ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/src/app/components/footer.tsx",
-                                            lineNumber: 111,
+                                            lineNumber: 90,
                                             columnNumber: 48
                                         }, this),
                                         "All India Institute of Medical Science, New Delhi 110029"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/footer.tsx",
-                                    lineNumber: 110,
+                                    lineNumber: 89,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -323,13 +274,13 @@ const Footer = ()=>{
                                             children: "+91 99999444511"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/footer.tsx",
-                                            lineNumber: 115,
+                                            lineNumber: 94,
                                             columnNumber: 18
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/footer.tsx",
-                                    lineNumber: 114,
+                                    lineNumber: 93,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -342,19 +293,19 @@ const Footer = ()=>{
                                             children: "drprabudhgoel@gmail.com"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/footer.tsx",
-                                            lineNumber: 118,
+                                            lineNumber: 97,
                                             columnNumber: 18
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/footer.tsx",
-                                    lineNumber: 117,
+                                    lineNumber: 96,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/components/footer.tsx",
-                            lineNumber: 108,
+                            lineNumber: 87,
                             columnNumber: 11
                         }, this)
                     ]
@@ -378,18 +329,18 @@ const Footer = ()=>{
                                 children: "Privacy Policy"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/footer.tsx",
-                                lineNumber: 126,
+                                lineNumber: 105,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/components/footer.tsx",
-                        lineNumber: 124,
+                        lineNumber: 103,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/components/footer.tsx",
-                    lineNumber: 123,
+                    lineNumber: 102,
                     columnNumber: 9
                 }, this)
             ]
@@ -607,12 +558,21 @@ function RootLayout({ children }) {
                                                     className: "flex flex-row items-center gap-2",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                            src: "/ripsscon_logo.png",
+                                                            alt: "Ripsscon2025",
+                                                            className: "h-12 md:h-30"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/app/layout.tsx",
+                                                            lineNumber: 47,
+                                                            columnNumber: 3
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                             src: "/logo1.png",
                                                             alt: "Logo 1",
                                                             className: "h-12 md:h-30"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/layout.tsx",
-                                                            lineNumber: 47,
+                                                            lineNumber: 48,
                                                             columnNumber: 5
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -621,7 +581,7 @@ function RootLayout({ children }) {
                                                             className: "h-12 md:h-30"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/layout.tsx",
-                                                            lineNumber: 48,
+                                                            lineNumber: 49,
                                                             columnNumber: 5
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -630,7 +590,7 @@ function RootLayout({ children }) {
                                                             className: "h-12 md:h-30"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/layout.tsx",
-                                                            lineNumber: 49,
+                                                            lineNumber: 50,
                                                             columnNumber: 5
                                                         }, this)
                                                     ]
@@ -647,16 +607,7 @@ function RootLayout({ children }) {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                             href: "/",
                                                             className: "text-base md:text-lg font-bold block",
-                                                            children: "10th World Conference  of the"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/app/layout.tsx",
-                                                            lineNumber: 53,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                            href: "/",
-                                                            className: "text-base md:text-lg font-bold block",
-                                                            children: "Research and Innovation Pediatric Surgical Society"
+                                                            children: "10th Annual Workshop Cum Conference on"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/layout.tsx",
                                                             lineNumber: 54,
@@ -664,17 +615,26 @@ function RootLayout({ children }) {
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                             href: "/",
-                                                            className: "text-xxs md:text-xs text-pink-600 block",
-                                                            children: "5-7 DECEMBER 2025 | AIIMS, NEW DELHI"
+                                                            className: "text-base md:text-lg font-bold block",
+                                                            children: "Translational Research and Innovation in Paediatric Surgery"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/layout.tsx",
                                                             lineNumber: 55,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                            href: "/",
+                                                            className: "text-xxs md:text-xs text-pink-600 font-bold block",
+                                                            children: "06-07 DECEMBER 2025 | AIIMS, NEW DELHI"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/app/layout.tsx",
+                                                            lineNumber: 56,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/layout.tsx",
-                                                    lineNumber: 52,
+                                                    lineNumber: 53,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
@@ -703,24 +663,24 @@ function RootLayout({ children }) {
                                                     d: "M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/layout.tsx",
-                                                    lineNumber: 67,
+                                                    lineNumber: 68,
                                                     columnNumber: 16
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/layout.tsx",
-                                                lineNumber: 66,
+                                                lineNumber: 67,
                                                 columnNumber: 16
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/layout.tsx",
-                                            lineNumber: 59,
+                                            lineNumber: 60,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
                                             id: "mobile-menu"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/layout.tsx",
-                                            lineNumber: 70,
+                                            lineNumber: 71,
                                             columnNumber: 16
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -751,13 +711,13 @@ function RootLayout({ children }) {
                                                                                     children: "▼"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                    lineNumber: 82,
+                                                                                    lineNumber: 83,
                                                                                     columnNumber: 31
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                            lineNumber: 81,
+                                                                            lineNumber: 82,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -778,14 +738,14 @@ function RootLayout({ children }) {
                                                                                                     children: "General Information"
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                                    lineNumber: 89,
+                                                                                                    lineNumber: 90,
                                                                                                     columnNumber: 31
                                                                                                 }, this),
                                                                                                 " "
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                                            lineNumber: 88,
+                                                                                            lineNumber: 89,
                                                                                             columnNumber: 29
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -797,14 +757,14 @@ function RootLayout({ children }) {
                                                                                                     children: "Welcome Letter"
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                                    lineNumber: 92,
+                                                                                                    lineNumber: 93,
                                                                                                     columnNumber: 31
                                                                                                 }, this),
                                                                                                 " "
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                                            lineNumber: 91,
+                                                                                            lineNumber: 92,
                                                                                             columnNumber: 29
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -816,14 +776,14 @@ function RootLayout({ children }) {
                                                                                                     children: "Board Committees"
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                                    lineNumber: 95,
+                                                                                                    lineNumber: 96,
                                                                                                     columnNumber: 31
                                                                                                 }, this),
                                                                                                 " "
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                                            lineNumber: 94,
+                                                                                            lineNumber: 95,
                                                                                             columnNumber: 29
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -835,14 +795,14 @@ function RootLayout({ children }) {
                                                                                                     children: "About RIPSSCON"
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                                    lineNumber: 98,
+                                                                                                    lineNumber: 99,
                                                                                                     columnNumber: 31
                                                                                                 }, this),
                                                                                                 " "
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                                            lineNumber: 97,
+                                                                                            lineNumber: 98,
                                                                                             columnNumber: 29
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -854,14 +814,14 @@ function RootLayout({ children }) {
                                                                                                     children: "Mission & Vision"
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                                    lineNumber: 101,
+                                                                                                    lineNumber: 102,
                                                                                                     columnNumber: 31
                                                                                                 }, this),
                                                                                                 " "
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                                            lineNumber: 100,
+                                                                                            lineNumber: 101,
                                                                                             columnNumber: 30
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -873,32 +833,32 @@ function RootLayout({ children }) {
                                                                                                     children: "Contact Us"
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                                    lineNumber: 104,
+                                                                                                    lineNumber: 105,
                                                                                                     columnNumber: 31
                                                                                                 }, this),
                                                                                                 " "
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                                            lineNumber: 103,
+                                                                                            lineNumber: 104,
                                                                                             columnNumber: 30
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                    lineNumber: 87,
+                                                                                    lineNumber: 88,
                                                                                     columnNumber: 27
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                            lineNumber: 86,
+                                                                            lineNumber: 87,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                    lineNumber: 80,
+                                                                    lineNumber: 81,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -917,13 +877,13 @@ function RootLayout({ children }) {
                                                                                     children: "▼"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                    lineNumber: 112,
+                                                                                    lineNumber: 113,
                                                                                     columnNumber: 33
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                            lineNumber: 111,
+                                                                            lineNumber: 112,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -944,14 +904,14 @@ function RootLayout({ children }) {
                                                                                                     children: "Scientific Program"
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                                    lineNumber: 120,
+                                                                                                    lineNumber: 121,
                                                                                                     columnNumber: 31
                                                                                                 }, this),
                                                                                                 " "
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                                            lineNumber: 119,
+                                                                                            lineNumber: 120,
                                                                                             columnNumber: 29
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -963,14 +923,14 @@ function RootLayout({ children }) {
                                                                                                     children: "RIPSCCON Research Workshop"
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                                    lineNumber: 123,
+                                                                                                    lineNumber: 124,
                                                                                                     columnNumber: 31
                                                                                                 }, this),
                                                                                                 " "
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                                            lineNumber: 122,
+                                                                                            lineNumber: 123,
                                                                                             columnNumber: 29
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -982,32 +942,32 @@ function RootLayout({ children }) {
                                                                                                     children: "CME Accreditation"
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                                    lineNumber: 126,
+                                                                                                    lineNumber: 127,
                                                                                                     columnNumber: 31
                                                                                                 }, this),
                                                                                                 " "
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                                            lineNumber: 125,
+                                                                                            lineNumber: 126,
                                                                                             columnNumber: 29
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                    lineNumber: 118,
+                                                                                    lineNumber: 119,
                                                                                     columnNumber: 27
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                            lineNumber: 117,
+                                                                            lineNumber: 118,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                    lineNumber: 110,
+                                                                    lineNumber: 111,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1026,13 +986,13 @@ function RootLayout({ children }) {
                                                                                     children: "▼"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                    lineNumber: 135,
+                                                                                    lineNumber: 136,
                                                                                     columnNumber: 35
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                            lineNumber: 134,
+                                                                            lineNumber: 135,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1053,14 +1013,14 @@ function RootLayout({ children }) {
                                                                                                     children: "Abstract Submission"
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                                    lineNumber: 142,
+                                                                                                    lineNumber: 143,
                                                                                                     columnNumber: 31
                                                                                                 }, this),
                                                                                                 " "
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                                            lineNumber: 141,
+                                                                                            lineNumber: 142,
                                                                                             columnNumber: 29
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1072,14 +1032,14 @@ function RootLayout({ children }) {
                                                                                                     children: "Abstract Topics"
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                                    lineNumber: 145,
+                                                                                                    lineNumber: 146,
                                                                                                     columnNumber: 31
                                                                                                 }, this),
                                                                                                 " "
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                                            lineNumber: 144,
+                                                                                            lineNumber: 145,
                                                                                             columnNumber: 29
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1091,32 +1051,32 @@ function RootLayout({ children }) {
                                                                                                     children: "Abstract Tips"
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                                    lineNumber: 148,
+                                                                                                    lineNumber: 149,
                                                                                                     columnNumber: 31
                                                                                                 }, this),
                                                                                                 " "
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                                            lineNumber: 147,
+                                                                                            lineNumber: 148,
                                                                                             columnNumber: 29
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                    lineNumber: 140,
+                                                                                    lineNumber: 141,
                                                                                     columnNumber: 27
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                            lineNumber: 139,
+                                                                            lineNumber: 140,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                    lineNumber: 133,
+                                                                    lineNumber: 134,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1135,13 +1095,13 @@ function RootLayout({ children }) {
                                                                                     children: "▼"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                    lineNumber: 156,
+                                                                                    lineNumber: 157,
                                                                                     columnNumber: 38
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                            lineNumber: 155,
+                                                                            lineNumber: 156,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1161,31 +1121,31 @@ function RootLayout({ children }) {
                                                                                                 children: "Register"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/src/app/layout.tsx",
-                                                                                                lineNumber: 163,
+                                                                                                lineNumber: 164,
                                                                                                 columnNumber: 31
                                                                                             }, this),
                                                                                             " "
                                                                                         ]
                                                                                     }, void 0, true, {
                                                                                         fileName: "[project]/src/app/layout.tsx",
-                                                                                        lineNumber: 162,
+                                                                                        lineNumber: 163,
                                                                                         columnNumber: 29
                                                                                     }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                    lineNumber: 161,
+                                                                                    lineNumber: 162,
                                                                                     columnNumber: 27
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                            lineNumber: 160,
+                                                                            lineNumber: 161,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                    lineNumber: 154,
+                                                                    lineNumber: 155,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1204,13 +1164,13 @@ function RootLayout({ children }) {
                                                                                     children: "▼"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                    lineNumber: 172,
+                                                                                    lineNumber: 173,
                                                                                     columnNumber: 33
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                            lineNumber: 171,
+                                                                            lineNumber: 172,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1231,14 +1191,14 @@ function RootLayout({ children }) {
                                                                                                     children: "Prospectus"
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                                    lineNumber: 179,
+                                                                                                    lineNumber: 180,
                                                                                                     columnNumber: 31
                                                                                                 }, this),
                                                                                                 " "
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                                            lineNumber: 178,
+                                                                                            lineNumber: 179,
                                                                                             columnNumber: 29
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1250,14 +1210,14 @@ function RootLayout({ children }) {
                                                                                                     children: "Exhibition"
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                                    lineNumber: 182,
+                                                                                                    lineNumber: 183,
                                                                                                     columnNumber: 31
                                                                                                 }, this),
                                                                                                 " "
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                                            lineNumber: 181,
+                                                                                            lineNumber: 182,
                                                                                             columnNumber: 29
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1269,14 +1229,14 @@ function RootLayout({ children }) {
                                                                                                     children: "Promotional Toolkit for Supporters & Exhibitors"
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                                    lineNumber: 185,
+                                                                                                    lineNumber: 186,
                                                                                                     columnNumber: 31
                                                                                                 }, this),
                                                                                                 " "
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                                            lineNumber: 184,
+                                                                                            lineNumber: 185,
                                                                                             columnNumber: 29
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1288,32 +1248,32 @@ function RootLayout({ children }) {
                                                                                                     children: "Contact Us"
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                                    lineNumber: 188,
+                                                                                                    lineNumber: 189,
                                                                                                     columnNumber: 31
                                                                                                 }, this),
                                                                                                 " "
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                                            lineNumber: 187,
+                                                                                            lineNumber: 188,
                                                                                             columnNumber: 30
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                    lineNumber: 177,
+                                                                                    lineNumber: 178,
                                                                                     columnNumber: 27
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                            lineNumber: 176,
+                                                                            lineNumber: 177,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                    lineNumber: 170,
+                                                                    lineNumber: 171,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1332,13 +1292,13 @@ function RootLayout({ children }) {
                                                                                     children: "▼"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                    lineNumber: 196,
+                                                                                    lineNumber: 197,
                                                                                     columnNumber: 32
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                            lineNumber: 195,
+                                                                            lineNumber: 196,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1359,14 +1319,14 @@ function RootLayout({ children }) {
                                                                                                     children: "Book Your Hotel"
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                                    lineNumber: 203,
+                                                                                                    lineNumber: 204,
                                                                                                     columnNumber: 31
                                                                                                 }, this),
                                                                                                 " "
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                                            lineNumber: 202,
+                                                                                            lineNumber: 203,
                                                                                             columnNumber: 29
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1378,32 +1338,32 @@ function RootLayout({ children }) {
                                                                                                     children: "Why book through us?"
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                                    lineNumber: 206,
+                                                                                                    lineNumber: 207,
                                                                                                     columnNumber: 31
                                                                                                 }, this),
                                                                                                 " "
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                                            lineNumber: 205,
+                                                                                            lineNumber: 206,
                                                                                             columnNumber: 29
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                    lineNumber: 201,
+                                                                                    lineNumber: 202,
                                                                                     columnNumber: 27
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                            lineNumber: 200,
+                                                                            lineNumber: 201,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                    lineNumber: 194,
+                                                                    lineNumber: 195,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1422,13 +1382,13 @@ function RootLayout({ children }) {
                                                                                     children: "▼"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                    lineNumber: 214,
+                                                                                    lineNumber: 215,
                                                                                     columnNumber: 35
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                            lineNumber: 213,
+                                                                            lineNumber: 214,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1449,14 +1409,14 @@ function RootLayout({ children }) {
                                                                                                     children: "Promotional Toolkit"
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                                    lineNumber: 221,
+                                                                                                    lineNumber: 222,
                                                                                                     columnNumber: 31
                                                                                                 }, this),
                                                                                                 " "
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                                            lineNumber: 220,
+                                                                                            lineNumber: 221,
                                                                                             columnNumber: 29
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1468,32 +1428,32 @@ function RootLayout({ children }) {
                                                                                                     children: "Related Events & Societies"
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                                    lineNumber: 224,
+                                                                                                    lineNumber: 225,
                                                                                                     columnNumber: 31
                                                                                                 }, this),
                                                                                                 " "
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                                            lineNumber: 223,
+                                                                                            lineNumber: 224,
                                                                                             columnNumber: 29
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                    lineNumber: 219,
+                                                                                    lineNumber: 220,
                                                                                     columnNumber: 27
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                            lineNumber: 218,
+                                                                            lineNumber: 219,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                    lineNumber: 212,
+                                                                    lineNumber: 213,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1512,13 +1472,13 @@ function RootLayout({ children }) {
                                                                                     children: "▼"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                    lineNumber: 232,
+                                                                                    lineNumber: 233,
                                                                                     columnNumber: 43
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                            lineNumber: 231,
+                                                                            lineNumber: 232,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1539,14 +1499,14 @@ function RootLayout({ children }) {
                                                                                                     children: "Grant Writing"
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                                    lineNumber: 239,
+                                                                                                    lineNumber: 240,
                                                                                                     columnNumber: 31
                                                                                                 }, this),
                                                                                                 " "
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                                            lineNumber: 238,
+                                                                                            lineNumber: 239,
                                                                                             columnNumber: 29
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1558,38 +1518,38 @@ function RootLayout({ children }) {
                                                                                                     children: "PMAS"
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                                    lineNumber: 242,
+                                                                                                    lineNumber: 243,
                                                                                                     columnNumber: 31
                                                                                                 }, this),
                                                                                                 " "
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                                            lineNumber: 241,
+                                                                                            lineNumber: 242,
                                                                                             columnNumber: 29
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                                    lineNumber: 237,
+                                                                                    lineNumber: 238,
                                                                                     columnNumber: 27
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/app/layout.tsx",
-                                                                            lineNumber: 236,
+                                                                            lineNumber: 237,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/layout.tsx",
-                                                                    lineNumber: 230,
+                                                                    lineNumber: 231,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/layout.tsx",
-                                                            lineNumber: 77,
+                                                            lineNumber: 78,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1599,14 +1559,14 @@ function RootLayout({ children }) {
                                                             children: "E-LEARNING PORTAL"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/layout.tsx",
-                                                            lineNumber: 249,
+                                                            lineNumber: 250,
                                                             columnNumber: 19
                                                         }, this),
                                                         " "
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/layout.tsx",
-                                                    lineNumber: 76,
+                                                    lineNumber: 77,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1618,13 +1578,13 @@ function RootLayout({ children }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/layout.tsx",
-                                                    lineNumber: 252,
+                                                    lineNumber: 253,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/layout.tsx",
-                                            lineNumber: 75,
+                                            lineNumber: 76,
                                             columnNumber: 15
                                         }, this)
                                     ]
@@ -1644,7 +1604,7 @@ function RootLayout({ children }) {
                             children: children
                         }, void 0, false, {
                             fileName: "[project]/src/app/layout.tsx",
-                            lineNumber: 260,
+                            lineNumber: 261,
                             columnNumber: 11
                         }, this)
                     ]
@@ -1655,12 +1615,12 @@ function RootLayout({ children }) {
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/src/app/layout.tsx",
-                    lineNumber: 266,
+                    lineNumber: 267,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$ScrollCircleIndicator$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/src/app/layout.tsx",
-                    lineNumber: 267,
+                    lineNumber: 268,
                     columnNumber: 9
                 }, this)
             ]

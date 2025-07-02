@@ -5,7 +5,7 @@ import WaveScrollEffect from '../../components/WaveScrollEffect'; // Import Wave
 const boardMembersData = [
   { name: 'M Sriniwas', department: 'Patron', linkedinId: 'M Sriniwas', profileImageUrl: '/board_com_pic/M_Sriniwas_director-221.jpg' },
   { name: 'S. Agarwala', department: 'Chairperson', linkedinId: 'S Aggrawala', profileImageUrl: '/board_com_pic/s_aggrawala.jpg' },
-  { name: 'Dr. Prabudh Goyal', department: 'Organizing Secretary', linkedinId: 'prabudh-goel-163272151/?originalSubdomain=in', profileImageUrl: '/board_com_pic/PG_pic.jpg' },
+  { name: 'Dr. Prabudh Goel', department: 'Organizing Secretary', linkedinId: 'prabudh-goel-163272151/?originalSubdomain=in', profileImageUrl: '/board_com_pic/PG_pic.jpg' },
   { name: 'Anjan Kr Dhua', department: 'Organizing Secretary', linkedinId: 'dr-anjan-dhua-0a354941/?originalSubdomain=in', profileImageUrl: '/board_com_pic/Dr_Anjan_Dhua.jpg' },
   { name: 'Devendra Kr Yadav', department: 'Organizing Secretary', linkedinId: 'Devendra Kr Yadav', profileImageUrl: '/board_com_pic/Dr_Devendra_Yadav.jpg' },
   { name: 'Vishesh Jain', department: 'Organizing Secretary', linkedinId: 'vishesh-jain-a84947188/?originalSubdomain=in', profileImageUrl: '/board_com_pic/Dr_Vishesh_Jain.jpg' },
@@ -28,7 +28,7 @@ const BoardCommitteesPage: React.FC = () => {
       {/* Header Section */}
       <div className="header">
         <div className="inner-header flex">
-          <h1>Board Committees</h1> {/* Updated title */}
+          <h1>Organizing Committees</h1> {/* Updated title */}
         </div>
 
         {/*Waves Container*/}

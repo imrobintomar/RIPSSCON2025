@@ -44,15 +44,16 @@ export default function RootLayout({
 <div className="flex flex-col md:flex-row items-center flex-shrink-0 mr-auto">
   {/* Container for logos */}
   <div className="flex flex-row items-center gap-2">
+  <img src="/ripsscon_logo.png" alt="Ripsscon2025" className="h-12 md:h-30" />
     <img src="/logo1.png" alt="Logo 1" className="h-12 md:h-30" />
     <img src="/logo2.jpeg" alt="Logo 2" className="h-12 md:h-30" />
     <img src="/logo3.jpeg" alt="Logo 3" className="h-12 md:h-30" />
   </div> {/* End container for logos */}
 
                 <div className="flex flex-col justify-center text-center md:text-left"> {/* Center text on small screens */}
-                  <Link href="/" className="text-base md:text-lg font-bold block">10th World Conference  of the</Link>
-                  <Link href="/"  className="text-base md:text-lg font-bold block">Research and Innovation Pediatric Surgical Society</Link>
-                  <Link href="/"  className="text-xxs md:text-xs text-pink-600 block">5-7 DECEMBER 2025 | AIIMS, NEW DELHI</Link>
+                  <Link href="/" className="text-base md:text-lg font-bold block">10th Annual Workshop Cum Conference on</Link>
+                  <Link href="/"  className="text-base md:text-lg font-bold block">Translational Research and Innovation in Paediatric Surgery</Link>
+                  <Link href="/"  className="text-xxs md:text-xs text-pink-600 font-bold block">06-07 DECEMBER 2025 | AIIMS, NEW DELHI</Link>
                 </div>
               </div>
               {/* Hamburger Button */}

@@ -1,3 +1,4 @@
 {
-  "/about/general-info/page": "app/about/general-info/page.js"
+  "/about/board-committees/page": "app/about/board-committees/page.js",
+  "/page": "app/page.js"
 }

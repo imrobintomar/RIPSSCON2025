@@ -63,7 +63,7 @@ const Footer = () => {
           {/* Left Column: Logo */}
           <div>
             <Image
-              src="/logo3.png"
+              src="/ripsscon_logo.png"
               alt="Logo 3"
               width={180} // Adjust width as needed
               height={180} // Adjust height as needed
@@ -80,28 +80,7 @@ const Footer = () => {
               <SocialIcon href="https://linkedin.com/" icon={<FaLinkedin />} />
               <SocialIcon href="https://instagram.com/" icon={<FaInstagram />} />
             </div>
-            <div className="mt-6">
-              <h3 className="text-lg font-semibold mb-3">Subscribe for Updates</h3>
-              <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row gap-2">
-                <input
-                  type="email"
-                  placeholder="Enter your email"
-                  value={email}
-                  onChange={handleEmailChange}
-                  required
-                  className="p-2 rounded text-gray-800 text-sm w-full sm:w-auto focus:outline-none focus:ring-2 focus:ring-cyan-600"
-                />
-                <button
-                  type="submit"
-                  disabled={loading}
-                  className={`bg-cyan-600 hover:bg-cyan-700 text-white text-sm font-semibold py-2 px-4 rounded transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-cyan-600 ${
-                    loading ? 'opacity-50 cursor-not-allowed' : ''
-                  }`}
-                >
-                  {loading ? 'Subscribing...' : 'Subscribe'}
-                </button>
-              </form>
-            </div>
+            
           </div>
 
           {/* Right Column: Contact Us */}
