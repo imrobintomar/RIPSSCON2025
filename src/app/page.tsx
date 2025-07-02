@@ -153,10 +153,8 @@ export default function Home() {
             {/* Content for Slide 1 */}
             <div className="relative z-10">
               {/* "Register Now!" Title - Needs a script-like font */}
-              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-4 text-white"> {/* Adjusted font size for smaller screens */}
-                Register Now!
-              </h2>
-              <p className="hero-slogan sm:text-lg mb-8 max-w-4xl mx-auto px-4  font-bold text-white"> {/* Adjusted text color, max-width, and added horizontal padding */}
+            
+              <p className="hero-slogan sm:text-lg mb-8 max-w-4xl mx-auto px-4  font-bold text-[#002060]"> {/* Adjusted text color, max-width, and added horizontal padding */}
                 LET'S COME TOGETHER AT RIPSSCON2025 TO ADVANCE CHILD CARE GLOBALLY, THROUGH RESEARCH, EDUCATION & COLLABORATION.
               </p>
 
