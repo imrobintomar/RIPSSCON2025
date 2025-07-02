@@ -57,7 +57,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-cyan-800 text-white mt-auto">
+    <footer className="bg-blue-800 text-white mt-auto">
       <div className="w-full py-8 md:py-12"> {/* Added w-full, Removed px-4 and md:px-6 */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 px-4 md:px-6"> {/* Added padding back to the grid for content spacing */}
           {/* Left Column: Logo */}
