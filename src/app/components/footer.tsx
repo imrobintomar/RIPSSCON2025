@@ -94,7 +94,7 @@ const Footer = () => {
               Dr. Prabudh Goel
             </p>
             <p className="footer-text-override text-sm text-white font-bold">
-              📞 <a href="tel:+919999944511" className="footer-text-override hover:underline text-white font-bold">+91 99999444511</a>
+              📞 <a href="tel:+919999944511" className="footer-text-override hover:underline text-white font-bold">+91 9999944511</a>
             </p>
             <p className="footer-text-override text-sm text-white font-bold">
               ✉️ <a href="mailto:drprabudhgoel@gmail.com" className="footer-text-override hover:underline text-white font-bold">drprabudhgoel@gmail.com</a>
