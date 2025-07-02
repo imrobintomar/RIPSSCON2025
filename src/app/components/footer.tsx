@@ -104,7 +104,7 @@ const Footer = () => {
 
         <div className="text-center border-t border-[#002060] pt-6 text-white ">
           <p className="footer-text-override text-sm text-white font-medium">
-            &copy; {new Date().getFullYear()} RIPSSCON2025. Department of Paediatric Surgery All india institute of medical science  New Delhi |{' '}
+            &copy; {new Date().getFullYear()} RIPSSCON2025. Department of Paediatric Surgery All India Institute of Medical Science  New Delhi |{' '}
             <Link href="/privacy-policy" className="footer-text-override hover:underline text-white">
               Privacy Policy
             </Link>
