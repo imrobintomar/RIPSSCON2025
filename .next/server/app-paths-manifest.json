@@ -1,11 +1,8 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/about/about-us/page": "app/about/about-us/page.js",
   "/about/board-committees/page": "app/about/board-committees/page.js",
   "/about/general-info/page": "app/about/general-info/page.js",
-  "/about/mission-vision/page": "app/about/mission-vision/page.js",
   "/about/welcome-letter/page": "app/about/welcome-letter/page.js",
-  "/api/contact/route": "app/api/contact/route.js",
-  "/contact/page": "app/contact/page.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/schedule/research-workshop/page": "app/schedule/research-workshop/page.js",
+  "/schedule/scientific-program/page": "app/schedule/scientific-program/page.js"
 }

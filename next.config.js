@@ -6,10 +6,6 @@ const nextConfig = {
 //  basePath: '/ripsscon2025',     //  VERY IMPORTANT for subfolder hosting
 //  assetPrefix: '/ripsscon2025/', //  Ensures CSS/JS loads correctly
 
-  webpack(config) {
-    config.resolve.alias['@'] = path.resolve(__dirname, 'src');
-    return config;
-  },
 
   images: {
     unoptimized: true, // Disable Image Optimization for static export

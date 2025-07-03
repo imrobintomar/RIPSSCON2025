@@ -24,6 +24,7 @@
       --tw-gradient-via-position: 50%;
       --tw-gradient-to-position: 100%;
       --tw-font-weight: initial;
+      --tw-tracking: initial;
       --tw-shadow: 0 0 #0000;
       --tw-shadow-color: initial;
       --tw-shadow-alpha: 100%;
@@ -79,9 +80,7 @@
     --color-yellow-500: oklch(79.5% .184 86.047);
     --color-green-500: oklch(72.3% .219 149.579);
     --color-cyan-600: oklch(60.9% .126 221.723);
-    --color-cyan-700: oklch(52% .105 223.128);
-    --color-cyan-800: oklch(45% .085 224.283);
-    --color-cyan-900: oklch(39.8% .07 227.392);
+    --color-blue-400: oklch(70.7% .165 254.624);
     --color-blue-500: oklch(62.3% .214 259.815);
     --color-blue-600: oklch(54.6% .245 262.881);
     --color-blue-700: oklch(48.8% .243 264.376);
@@ -137,6 +136,7 @@
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
     --font-weight-extrabold: 800;
+    --tracking-wide: .025em;
     --radius-md: .375rem;
     --radius-lg: .5rem;
     --radius-xl: .75rem;
@@ -454,12 +454,20 @@
     margin-top: calc(var(--spacing) * 1);
   }
 
+  .mt-2 {
+    margin-top: calc(var(--spacing) * 2);
+  }
+
   .mt-3 {
     margin-top: calc(var(--spacing) * 3);
   }
 
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
+  }
+
+  .mt-6 {
+    margin-top: calc(var(--spacing) * 6);
   }
 
   .mt-8 {
@@ -564,6 +572,10 @@
 
   .h-48 {
     height: calc(var(--spacing) * 48);
+  }
+
+  .h-64 {
+    height: calc(var(--spacing) * 64);
   }
 
   .h-72 {
@@ -735,6 +747,10 @@
     align-items: flex-start;
   }
 
+  .items-stretch {
+    align-items: stretch;
+  }
+
   .justify-between {
     justify-content: space-between;
   }
@@ -745,6 +761,10 @@
 
   .justify-end {
     justify-content: flex-end;
+  }
+
+  .justify-start {
+    justify-content: flex-start;
   }
 
   .gap-2 {
@@ -769,6 +789,12 @@
 
   .gap-12 {
     gap: calc(var(--spacing) * 12);
+  }
+
+  :where(.space-y-2 > :not(:last-child)) {
+    --tw-space-y-reverse: 0;
+    margin-block-start: calc(calc(var(--spacing) * 2) * var(--tw-space-y-reverse));
+    margin-block-end: calc(calc(var(--spacing) * 2) * calc(1 - var(--tw-space-y-reverse)));
   }
 
   :where(.space-y-4 > :not(:last-child)) {
@@ -832,8 +858,18 @@
     border-radius: var(--radius-xl);
   }
 
+  .rounded-t-md {
+    border-top-left-radius: var(--radius-md);
+    border-top-right-radius: var(--radius-md);
+  }
+
   .rounded-tr-full {
     border-top-right-radius: 3.40282e38px;
+  }
+
+  .rounded-b-md {
+    border-bottom-right-radius: var(--radius-md);
+    border-bottom-left-radius: var(--radius-md);
   }
 
   .rounded-br-full {
@@ -860,6 +896,11 @@
     border-top-width: 1px;
   }
 
+  .border-t-0 {
+    border-top-style: var(--tw-border-style);
+    border-top-width: 0;
+  }
+
   .border-b {
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
@@ -879,8 +920,12 @@
     border-color: #002060;
   }
 
-  .border-cyan-700 {
-    border-color: var(--color-cyan-700);
+  .border-blue-400 {
+    border-color: var(--color-blue-400);
+  }
+
+  .border-cyan-600 {
+    border-color: var(--color-cyan-600);
   }
 
   .border-gray-200 {
@@ -913,10 +958,6 @@
 
   .bg-cyan-600 {
     background-color: var(--color-cyan-600);
-  }
-
-  .bg-cyan-700 {
-    background-color: var(--color-cyan-700);
   }
 
   .bg-gray-100 {
@@ -1128,6 +1169,11 @@
     font-weight: var(--font-weight-semibold);
   }
 
+  .tracking-wide {
+    --tw-tracking: var(--tracking-wide);
+    letter-spacing: var(--tracking-wide);
+  }
+
   .text-\[\#002060\] {
     color: #002060;
   }
@@ -1142,18 +1188,6 @@
 
   .text-blue-800 {
     color: var(--color-blue-800);
-  }
-
-  .text-cyan-600 {
-    color: var(--color-cyan-600);
-  }
-
-  .text-cyan-700 {
-    color: var(--color-cyan-700);
-  }
-
-  .text-cyan-800 {
-    color: var(--color-cyan-800);
   }
 
   .text-gray-600 {
@@ -1194,6 +1228,10 @@
 
   .text-white {
     color: var(--color-white);
+  }
+
+  .uppercase {
+    text-transform: uppercase;
   }
 
   .italic {
@@ -1491,12 +1529,6 @@
   }
 
   @media (hover: hover) {
-    .hover\:bg-cyan-900:hover {
-      background-color: var(--color-cyan-900);
-    }
-  }
-
-  @media (hover: hover) {
     .hover\:bg-gray-100:hover {
       background-color: var(--color-gray-100);
     }
@@ -1511,6 +1543,12 @@
   @media (hover: hover) {
     .hover\:text-blue-900:hover {
       color: var(--color-blue-900);
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:text-white:hover {
+      color: var(--color-white);
     }
   }
 
@@ -1548,10 +1586,6 @@
 
   .focus\:ring-blue-500:focus {
     --tw-ring-color: var(--color-blue-500);
-  }
-
-  .focus\:ring-cyan-600:focus {
-    --tw-ring-color: var(--color-cyan-600);
   }
 
   .focus\:ring-gray-600:focus {
@@ -1594,13 +1628,6 @@
   @media (width >= 40rem) {
     .sm\:py-3 {
       padding-block: calc(var(--spacing) * 3);
-    }
-  }
-
-  @media (width >= 40rem) {
-    .sm\:text-4xl {
-      font-size: var(--text-4xl);
-      line-height: var(--tw-leading, var(--text-4xl--line-height));
     }
   }
 
@@ -1675,8 +1702,26 @@
   }
 
   @media (width >= 48rem) {
+    .md\:h-29 {
+      height: calc(var(--spacing) * 29);
+    }
+  }
+
+  @media (width >= 48rem) {
     .md\:h-30 {
       height: calc(var(--spacing) * 30);
+    }
+  }
+
+  @media (width >= 48rem) {
+    .md\:h-31 {
+      height: calc(var(--spacing) * 31);
+    }
+  }
+
+  @media (width >= 48rem) {
+    .md\:h-32 {
+      height: calc(var(--spacing) * 32);
     }
   }
 
@@ -1815,13 +1860,6 @@
     .md\:text-4xl {
       font-size: var(--text-4xl);
       line-height: var(--tw-leading, var(--text-4xl--line-height));
-    }
-  }
-
-  @media (width >= 48rem) {
-    .md\:text-5xl {
-      font-size: var(--text-5xl);
-      line-height: var(--tw-leading, var(--text-5xl--line-height));
     }
   }
 
@@ -1978,6 +2016,14 @@
   @media (prefers-color-scheme: dark) {
     .dark\:text-white {
       color: var(--color-white);
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    @media (hover: hover) {
+      .dark\:hover\:bg-\[\#002060\]:hover {
+        background-color: #002060;
+      }
     }
   }
 
@@ -2375,6 +2421,11 @@ p {
 }
 
 @property --tw-font-weight {
+  syntax: "*";
+  inherits: false
+}
+
+@property --tw-tracking {
   syntax: "*";
   inherits: false
 }

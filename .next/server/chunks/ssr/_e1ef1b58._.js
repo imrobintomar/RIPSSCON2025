@@ -79,31 +79,52 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$
 const speakers = [
     {
         id: 1,
-        name: 'Dr Prabudh Goel',
-        title: 'Organizing Secretary',
-        imageUrl: '/board_com_pic/PG_pic.jpg',
-        bio: 'Dr. Prabudh Goel is Professor of Pediatric Surgery at AIIMS, New Delhi. A graduate of King George’s Medical University (KGMU), Lucknow, he has held key positions at KGMU, CSIR-HRDG, Chacha Nehru Bal Chikitsalaya, and Lady Hardinge Medical College. He has published over 27 research articles, 7 books, and 7 book chapters, with a citation count exceeding 18,700, an h-index of 21, and an i10-index of 36. His work has significantly contributed to pediatric surgical research and education. Dr. Goel is a recipient of multiple awards and is an active member of several national and international surgical societies.'
+        name: 'Dr. M Sriniwas',
+        title: 'Patron',
+        imageUrl: '/board_com_pic/M_Sriniwas_director-221.jpg',
+        bio: 'Dr. M Srinivas, Director of the All India Institute of Medical Sciences (AIIMS), New Delhi, brings over three decades of distinguished experience in academic medicine, administration, and pediatric surgery to his leadership role. An exceptional scholar with numerous gold medals and awards, Dr. Srinivas has authored around 200 research papers and trained thousands of medical students. He holds fellowships from 15 professional organizations, including the prestigious Childrens Research Center, Dublin, Ireland. Dr. Srinivas is recognized as one of India most eminent medical luminaries, admired throughout the medical fraternity for his multifaceted expertise and visionary leadership.'
     },
     {
         id: 2,
-        name: 'Dr. Vishesh Jain',
-        title: 'Organizing Secretary',
-        imageUrl: '/board_com_pic/Dr_Vishesh_Jain.jpg',
-        bio: 'Dr. Vishesh Jain is Professor of Pediatric Surgery at AIIMS, New Delhi, with over 20 years of experience in the field. Specializing in surgeries for infants, children, and adolescents, Dr. Jain is a leading expert in minimally invasive techniques, including keyhole surgery, laparoscopy, and thoracoscopy. In addition to his clinical work, he is actively involved in teaching and research at AIIMS. Dr. Jain is also passionate about leveraging information technology to enhance patient management, improve the patient experience, and streamline data management, reflecting his commitment to innovation in pediatric healthcare.'
+        name: 'Dr.  Sandeep Agarwala',
+        title: 'Organizing  Chairman',
+        imageUrl: '/board_com_pic/s_aggrawala.png',
+        bio: 'Prof. Sandeep Agarwala serves as Professor and Head of the Department of Paediatric Surgery at AIIMS New Delhi, bringing over three decades of exemplary leadership in paediatric surgical care, education, and research to RIPSSCON. With more than 200 PubMed publications and an h-index of 21, Prof. Agarwala is internationally recognized for his pioneering contributions to paediatric oncology, congenital anomalies management, and surgical innovation. His visionary leadership has shaped countless surgical careers and advanced paediatric surgical practice across India and beyond. '
     },
     {
         id: 3,
-        name: 'Dr. Anjan Dhua',
+        name: 'Dr. Prabudh Goel',
         title: 'Organizing Secretary',
-        imageUrl: '/board_com_pic/Dr_Anjan_Dhua.jpg',
-        bio: 'Dr. Anjan Kumar Dhua is Professor of Pediatric Surgery at AIIMS, New Delhi, with extensive experience in minimally invasive, laparoscopic, robotic, and oncologic pediatric surgeries. Holding qualifications including MBBS, MS, MCh, DNB, FIAPS, and MNAMS, he has authored over 200 publications with more than 33,000 reads and 600 citations. A recipient of multiple prestigious gold medals, Dr. Dhua has served in leading medical institutions including MAMC, ABVIMS-RML, and PIMS. His clinical and research interests include congenital abnormalities, laparoscopic urology, and pediatric surgical innovations. He is also active in academic mentorship and collaborative global research networks.'
+        imageUrl: '/board_com_pic/PG_pic.jpg',
+        bio: 'Dr. Prabudh Goel is Professor of Paediatric Surgery at the AIIMS, New Delhi, and a distinguished paediatric and neonatal surgeon, paediatric urologist, and hypospadiologist with over two decades of clinical excellence. With more than 180 publications, 8,000+ citations, and multiple patented innovations, he stands as one of Indias most prolific researchers in paediatric surgery. Dr. Goel remarkable contributions include groundbreaking research projects worth over 20 crores and prestigious awards including the UC Chakraborty Award and Paediatric Urologist of the Year Award (2021). '
     },
     {
         id: 4,
+        name: 'Dr. Vishesh Jain',
+        title: 'Organizing Secretary',
+        imageUrl: '/board_com_pic/Dr_Vishesh_Jain.jpg',
+        bio: 'Dr. Vishesh Jain is Professor of Paediatric Surgery at the AIIMS, New Delhi, and brings over 15 years of distinguished clinical and academic experience to RIPSSCON. A gold medallist in both MBBS and MCh (Paediatric Surgery), Prof. Jain has established himself as a prolific researcher with 137 scientific publications and 50 book chapters to his credit. His expertise spans paediatric surgery, neonatal surgery, and paediatric urology, with significant contributions to Wilms tumor research and urological reconstructive procedures.'
+    },
+    {
+        id: 5,
+        name: 'Dr. Anjan Dhua',
+        title: 'Organizing Secretary',
+        imageUrl: '/board_com_pic/Dr_Anjan_Dhua.jpg',
+        bio: 'Dr. Anjan Kumar Dhua serves as Professor of Pediatric Surgery at AIIMS Delhi, bringing exceptional expertise in paediatric surgery, laparoscopic procedures, and robotic surgery to RIPSSCON. A distinguished Fellow of multiple prestigious academies including the American College of Surgeons (FACS) and the International College of Robotic Surgeons (FICRS), Prof. Dhua has contributed significantly to paediatric surgical literature with over 90 PubMed publications and an h-index of 12. His research excellence encompasses innovative surgical techniques, particularly in minimally invasive approaches and pediatric oncology.'
+    },
+    {
+        id: 6,
         name: 'Dr. Devendra Yadav',
         title: 'Organizing Secretary',
         imageUrl: '/board_com_pic/Dr_Devendra_Yadav.jpg',
-        bio: 'Dr. Devendra Kumar Yadav is Professor of Pediatric Surgery at the AIIMS, New Delhi. With a strong academic and clinical background, he has contributed significantly to the field through his expertise in pediatric surgical care and minimally invasive techniques. Dr. Yadav has published over 90 research articles, accumulating more than 6,800 reads and 385 citations, reflecting his active involvement in advancing pediatric surgical knowledge. At AIIMS, he plays a key role in clinical care, academic mentorship, and research, helping to shape the next generation of pediatric surgeons and improve patient outcomes.'
+        bio: 'Dr. Devendra Kumar Yadav is a Professor of Paediatric Surgery at AIIMS New Delhi, renowned for his expertise as a paediatric and neonatal surgeon, paediatric urologist, and hypospadiologist. With over 85 PubMed publications and extensive experience in clinical research, Prof. Yadav has made significant contributions to paediatric urology and surgical outcomes research. His scholarly work encompasses systematic reviews, meta-analyses, and innovative surgical techniques, particularly in hypospadias repair and urological reconstructive procedures.'
+    },
+    {
+        id: 7,
+        name: 'Dr. GAli Divya ',
+        title: 'Joint Organizing Secretary',
+        imageUrl: '/board_com_pic/gali_divya.jpg',
+        bio: 'Dr. Gali Divya is Assistant Professor of Pediatric Surgery at AIIMS New Delhi, bringing fresh perspectives and dynamic energy to RIPSSCON as an emerging leader in paediatric surgery. A gold medallist in MS General Surgery and MCh Pediatric Surgery, Dr. Divya has quickly established herself as a rising star with significant research contributions in paediatric trauma, neonatal surgery, and congenital anomalies. Her impressive portfolio includes multiple award-winning presentations, peer-reviewed publications, and active involvement in cutting-edge research projects.'
     }
 ];
 // Provided SpeakersSection component code
@@ -116,7 +137,7 @@ const SpeakersSection = ()=>{
                 className: "text-2xl md:text-3xl font-semibold text-[#002060] mb-6 border-b pb-2"
             }, void 0, false, {
                 fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                lineNumber: 43,
+                lineNumber: 69,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -133,17 +154,18 @@ const SpeakersSection = ()=>{
                                         alt: `Photo of ${speaker.name}`,
                                         fill: true,
                                         style: {
-                                            objectFit: 'cover'
+                                            objectFit: 'cover',
+                                            objectPosition: 'center'
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 48,
+                                        lineNumber: 74,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                lineNumber: 47,
+                                lineNumber: 73,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -151,7 +173,7 @@ const SpeakersSection = ()=>{
                                 children: speaker.name
                             }, void 0, false, {
                                 fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                lineNumber: 55,
+                                lineNumber: 81,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -159,7 +181,7 @@ const SpeakersSection = ()=>{
                                 children: speaker.title
                             }, void 0, false, {
                                 fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                lineNumber: 56,
+                                lineNumber: 82,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -167,24 +189,24 @@ const SpeakersSection = ()=>{
                                 children: speaker.bio
                             }, void 0, false, {
                                 fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                lineNumber: 57,
+                                lineNumber: 83,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, speaker.id, true, {
                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                        lineNumber: 46,
+                        lineNumber: 72,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                lineNumber: 44,
+                lineNumber: 70,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-        lineNumber: 42,
+        lineNumber: 68,
         columnNumber: 5
     }, this);
 };
@@ -200,12 +222,12 @@ const WelcomeLetterPage = ()=>{
                             children: "Welcome Letter"
                         }, void 0, false, {
                             fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                            lineNumber: 71,
+                            lineNumber: 97,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                        lineNumber: 70,
+                        lineNumber: 96,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -223,12 +245,12 @@ const WelcomeLetterPage = ()=>{
                                         d: "M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 78,
+                                        lineNumber: 104,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                    lineNumber: 77,
+                                    lineNumber: 103,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("g", {
@@ -241,7 +263,7 @@ const WelcomeLetterPage = ()=>{
                                             fill: "rgba(255,255,255,0.7)"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                            lineNumber: 81,
+                                            lineNumber: 107,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("use", {
@@ -251,7 +273,7 @@ const WelcomeLetterPage = ()=>{
                                             fill: "rgba(255,255,255,0.5)"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                            lineNumber: 82,
+                                            lineNumber: 108,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("use", {
@@ -261,7 +283,7 @@ const WelcomeLetterPage = ()=>{
                                             fill: "rgba(255,255,255,0.3)"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                            lineNumber: 83,
+                                            lineNumber: 109,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("use", {
@@ -271,37 +293,37 @@ const WelcomeLetterPage = ()=>{
                                             fill: "#fff"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                            lineNumber: 84,
+                                            lineNumber: 110,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                    lineNumber: 80,
+                                    lineNumber: 106,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                            lineNumber: 76,
+                            lineNumber: 102,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                        lineNumber: 75,
+                        lineNumber: 101,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                lineNumber: 69,
+                lineNumber: 95,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "content flex"
             }, void 0, false, {
                 fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                lineNumber: 91,
+                lineNumber: 117,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -317,7 +339,7 @@ const WelcomeLetterPage = ()=>{
                                 children: "Welcome Letter"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                lineNumber: 98,
+                                lineNumber: 124,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -328,7 +350,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "10th Annual Conference – Research and Innovation Pediatric Surgery Society"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 101,
+                                        lineNumber: 127,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -340,13 +362,13 @@ const WelcomeLetterPage = ()=>{
                                                 children: "December 06–07, 2025"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                                lineNumber: 102,
+                                                lineNumber: 128,
                                                 columnNumber: 50
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 102,
+                                        lineNumber: 128,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -358,19 +380,19 @@ const WelcomeLetterPage = ()=>{
                                                 children: "JL Auditorium, All India Institute of Medical Sciences, New Delhi"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                                lineNumber: 103,
+                                                lineNumber: 129,
                                                 columnNumber: 40
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 103,
+                                        lineNumber: 129,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                lineNumber: 100,
+                                lineNumber: 126,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -381,7 +403,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "Dear Esteemed Colleagues and Fellow Pediatric Surgeons,"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 107,
+                                        lineNumber: 133,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -389,7 +411,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "Namaste and a warm welcome to the future of paediatric surgery in India!"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 109,
+                                        lineNumber: 135,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -397,7 +419,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "It gives us immense pleasure to invite you to the 10th Annual Conference of the Research and Innovation Pediatric Surgery Society – RIPSSCON 2025 - a milestone celebration of a decade dedicated to advancing paediatric surgical care across our nation."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 111,
+                                        lineNumber: 137,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -405,7 +427,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "A Decade of Innovation, A Future of Possibilities"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 113,
+                                        lineNumber: 139,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -413,7 +435,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "As we stand at the threshold of this landmark 10th edition, we reflect on the incredible journey that has brought us here. From humble beginnings to becoming one of India’s premier platforms for paediatric surgical excellence, IAPS and now RIPSS have been consistently pushing the boundaries of what’s possible in our field."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 114,
+                                        lineNumber: 140,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -421,7 +443,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "This year, we’re embarking on an extraordinary journey that bridges cutting-edge genomic discoveries like:"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 116,
+                                        lineNumber: 142,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -433,12 +455,12 @@ const WelcomeLetterPage = ()=>{
                                                     children: "Exploring the role of exome sequencing and other genetic techniques in favour of our children affected with anatomic congenital malformations."
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                                    lineNumber: 118,
+                                                    lineNumber: 144,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                                lineNumber: 118,
+                                                lineNumber: 144,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -447,26 +469,26 @@ const WelcomeLetterPage = ()=>{
                                                     children: "Their applications in real-world clinical practice beyond academia while focussing on our resident trainee and private practitioner alike."
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                                    lineNumber: 119,
+                                                    lineNumber: 145,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                                lineNumber: 119,
+                                                lineNumber: 145,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     className: "font-semibold text-red-600",
-                                                    children: "Tackling the most controversial debates in our field.Professional innovations and intellectual property rights."
+                                                    children: "Tackling the most controversial debates in our field. Professional innovations and intellectual property rights."
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                                    lineNumber: 120,
+                                                    lineNumber: 146,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                                lineNumber: 120,
+                                                lineNumber: 146,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -475,26 +497,26 @@ const WelcomeLetterPage = ()=>{
                                                     children: "Creativity and celebrating the diverse landscape of paediatric surgery – from academic institutions to private practice excellence."
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                                    lineNumber: 121,
+                                                    lineNumber: 147,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                                lineNumber: 121,
+                                                lineNumber: 147,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 117,
+                                        lineNumber: 143,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-xl font-semibold text-red-600 mb-4",
-                                        children: "Why This Conference Will Transform Your Practice"
+                                        children: "Why this Conference will Transform your Practice"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 124,
+                                        lineNumber: 150,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -502,7 +524,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "In an era where paediatric surgery is rapidly evolving with cutting-edge technologies and revolutionary treatment approaches, staying ahead isn’t just an advantage it’s essential. RIPSSCON2025 has been meticulously designed to equip you with the knowledge, skills, and connections that will define the future of paediatric surgery."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 125,
+                                        lineNumber: 151,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -510,7 +532,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "🔬 Dive Deep into Research Excellence"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 127,
+                                        lineNumber: 153,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -518,7 +540,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "Explore our comprehensive Potpourri of Research and Biostatistical Concepts – specially curated sessions that will enhance your research methodology and statistical analysis skills, empowering you to contribute meaningfully to the global body of paediatric surgical knowledge."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 128,
+                                        lineNumber: 154,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -526,7 +548,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "🧬 Hands-On Innovation Workshops"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 130,
+                                        lineNumber: 156,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -538,14 +560,14 @@ const WelcomeLetterPage = ()=>{
                                                 children: "Practical Genomic Medicine for Pediatric Surgeons and the Genetic Basis of Anatomical Malformations"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                                lineNumber: 131,
+                                                lineNumber: 157,
                                                 columnNumber: 86
                                             }, this),
                                             ". Learn how to confidently interpret genomic reports, effectively communicate complex genetic information to parents, and seamlessly integrate these powerful diagnostic tools into your daily practice – keeping you at the forefront of personalized paediatric surgical care."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 131,
+                                        lineNumber: 157,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -553,7 +575,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "💡 Engage in Meaningful Discourse"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 133,
+                                        lineNumber: 159,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -561,7 +583,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "Participate in thought-provoking symposiums and debates on the most controversial and challenging topics in paediatric surgery. These sessions are designed to challenge conventional thinking and inspire innovative solutions to complex clinical problems."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 134,
+                                        lineNumber: 160,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -569,7 +591,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "🏆 Your Platform for Recognition and Growth"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 136,
+                                        lineNumber: 162,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -577,7 +599,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "Our Free Papers Session provides an unparalleled opportunity to present your research, share your innovations, and gain recognition from leading experts in the field. With attractive awards awaiting outstanding presentations, this is your chance to shine on a national stage."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 137,
+                                        lineNumber: 163,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -585,7 +607,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "🤝 Fellowship Opportunities"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 139,
+                                        lineNumber: 165,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -593,7 +615,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "Take the next step in your professional journey by exploring Fellowship opportunities that can open doors to specialized training and career advancement."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 140,
+                                        lineNumber: 166,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -601,7 +623,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "💰 Earn Valuable CME Credits"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 142,
+                                        lineNumber: 168,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -609,7 +631,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "Enhance your continuing medical education portfolio with valuable CME credit points while staying updated with the latest advances in paediatric surgery."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 143,
+                                        lineNumber: 169,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -617,7 +639,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "Beyond Medicine: Experience the Heart of India"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 145,
+                                        lineNumber: 171,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -625,7 +647,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "While you’re enhancing your medical expertise, why not turn this into a memorable family getaway? December’s crisp, pleasant weather makes it the perfect time to explore Delhi with your spouse and children. Imagine strolling through history at the iconic India Gate – a tribute to 84,000 Indian soldiers, or marvelling at the Red Fort where Mughal emperors once held court for over 200 years. Let your family discover the towering Qutub Minar – the world’s tallest brick minaret, the exquisite Alai Darwaza with its stunning Indo-Islamic architecture, and the serene Safdarjung’s Tomb – often called the last flicker of Mughal architectural brilliance. With comfortable winter temperatures and clear blue skies, December in Delhi offers the ideal backdrop for creating lasting family memories while you advance your professional journey."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 146,
+                                        lineNumber: 172,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -633,7 +655,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "A Gathering of Minds, A Meeting of Hearts"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 148,
+                                        lineNumber: 174,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -641,7 +663,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "This conference brings together the brightest minds in paediatric surgery from across India and beyond. Under the distinguished guidance of our Patron Prof. M Srinivas and the expert leadership of Organizing Chairman Prof. Sandeep Agarwala, along with our dedicated team of organizing secretaries, we’ve created an environment where knowledge flows freely, collaborations are born, and friendships are forged."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 149,
+                                        lineNumber: 175,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -649,7 +671,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "The involvement of both RIPSS and IAPS ensures that this conference represents the unified voice of paediatric surgery in India, bringing together diverse perspectives and expertise under one roof."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 151,
+                                        lineNumber: 177,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -657,7 +679,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "Special Benefits for Our Young Colleagues"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 153,
+                                        lineNumber: 179,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -665,7 +687,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "We understand the challenges faced by residents and young surgeons, which is why we’re pleased to offer complimentary accommodation on a first-come, first-served basis for resident trainees. This is our investment in the future of paediatric surgery – ensuring that financial constraints don’t prevent the next generation from accessing world-class education and networking opportunities."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 154,
+                                        lineNumber: 180,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -673,7 +695,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "Your Journey Starts Here"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 156,
+                                        lineNumber: 182,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -681,7 +703,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "The path to surgical excellence is not a destination but a continuous journey of learning, innovation, and service to our young patients. RIPSSCON 2025 is more than a conference – it’s a catalyst for transformation, a network of support, and a community of shared purpose."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 157,
+                                        lineNumber: 183,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -689,7 +711,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "Whether you’re a seasoned surgeon looking to stay at the forefront of your field, a young professional seeking mentorship and growth opportunities, or a researcher passionate about advancing paediatric surgical science, this conference has something transformative waiting for you."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 159,
+                                        lineNumber: 185,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -697,7 +719,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "Register Today, Transform Tomorrow"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 161,
+                                        lineNumber: 187,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -705,7 +727,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "The future of paediatric surgery in India will be shaped by the decisions we make today, the knowledge we acquire, and the connections we build. Don’t let this opportunity pass by – be part of the conversation that will define the next decade of paediatric surgical excellence."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 162,
+                                        lineNumber: 188,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -713,15 +735,15 @@ const WelcomeLetterPage = ()=>{
                                         children: "Mark your calendars: December 06–07, 2025"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 164,
+                                        lineNumber: 190,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "mb-4",
-                                        children: "Location: JL Auditorium, AIIMS New Delhi"
+                                        children: "Location: JL Auditorium, AIIMS, New Delhi"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 165,
+                                        lineNumber: 191,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -729,31 +751,31 @@ const WelcomeLetterPage = ()=>{
                                         children: "For registration and further details, please contact:"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 167,
+                                        lineNumber: 193,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "mb-1",
-                                        children: "Prof. Prabhudh Goel"
+                                        className: "mb-1 text-bold ",
+                                        children: "Prof. Prabudh Goel"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 168,
+                                        lineNumber: 194,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "mb-1",
-                                        children: "Mobile: +91- 9999844511"
+                                        className: "mb-1 text-bold",
+                                        children: "Mobile: +91-9999944511"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 169,
+                                        lineNumber: 195,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "mb-4",
-                                        children: "Email: drprabhudhgoel@gmail.com"
+                                        className: "mb-4 text-bold ",
+                                        children: "Email: drprabudhgoel@gmail.com"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 170,
+                                        lineNumber: 196,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -761,7 +783,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "Together, We Heal. Together, We Innovate. Together, We Excel."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 172,
+                                        lineNumber: 198,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -769,7 +791,7 @@ const WelcomeLetterPage = ()=>{
                                         children: "We look forward to welcoming you to what promises to be an unforgettable celebration of paediatric surgical excellence, innovation, and camaraderie."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 173,
+                                        lineNumber: 199,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -780,7 +802,7 @@ const WelcomeLetterPage = ()=>{
                                                 children: "With warm regards and best wishes,"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                                lineNumber: 176,
+                                                lineNumber: 202,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -788,7 +810,7 @@ const WelcomeLetterPage = ()=>{
                                                 children: "The Organizing Committee"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                                lineNumber: 178,
+                                                lineNumber: 204,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -796,7 +818,7 @@ const WelcomeLetterPage = ()=>{
                                                 children: "RIPSSCON 2025"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                                lineNumber: 179,
+                                                lineNumber: 205,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -804,26 +826,26 @@ const WelcomeLetterPage = ()=>{
                                                 children: "Research and Innovation Pediatric Surgery Society"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                                lineNumber: 180,
+                                                lineNumber: 206,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 175,
+                                        lineNumber: 201,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                lineNumber: 106,
+                                lineNumber: 132,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {
                                 className: "my-8"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                lineNumber: 184,
+                                lineNumber: 210,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -834,48 +856,48 @@ const WelcomeLetterPage = ()=>{
                                         children: '"The best way to predict the future is to create it together."'
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 187,
+                                        lineNumber: 213,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: "Join us in creating the future of paediatric surgery in India."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                        lineNumber: 188,
+                                        lineNumber: 214,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                                lineNumber: 186,
+                                lineNumber: 212,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                        lineNumber: 97,
+                        lineNumber: 123,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                lineNumber: 96,
+                lineNumber: 122,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(SpeakersSection, {}, void 0, false, {
                 fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                lineNumber: 194,
+                lineNumber: 220,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$WaveScrollEffect$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-                lineNumber: 199,
+                lineNumber: 225,
                 columnNumber: 5
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/about/welcome-letter/page.tsx",
-        lineNumber: 67,
+        lineNumber: 93,
         columnNumber: 5
     }, this);
 };

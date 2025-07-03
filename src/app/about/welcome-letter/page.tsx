@@ -4,34 +4,60 @@ import WaveScrollEffect from '../../components/WaveScrollEffect';
 
 // Placeholder speakers data - Replace with your actual speakers data
 const speakers = [
+
   {
+
     id: 1,
-    name: 'Dr Prabudh Goel',
-    title: 'Organizing Secretary',
-    imageUrl: '/board_com_pic/PG_pic.jpg', // Replace with actual image path
-    bio: 'Dr. Prabudh Goel is Professor of Pediatric Surgery at AIIMS, New Delhi. A graduate of King George’s Medical University (KGMU), Lucknow, he has held key positions at KGMU, CSIR-HRDG, Chacha Nehru Bal Chikitsalaya, and Lady Hardinge Medical College. He has published over 27 research articles, 7 books, and 7 book chapters, with a citation count exceeding 18,700, an h-index of 21, and an i10-index of 36. His work has significantly contributed to pediatric surgical research and education. Dr. Goel is a recipient of multiple awards and is an active member of several national and international surgical societies.', // Placeholder bio
+    name: 'Dr. M Sriniwas',
+    title: 'Patron',
+    imageUrl: '/board_com_pic/M_Sriniwas_director-221.jpg', // Replace with actual image path
+    bio: 'Dr. M Srinivas, Director of the All India Institute of Medical Sciences (AIIMS), New Delhi, brings over three decades of distinguished experience in academic medicine, administration, and pediatric surgery to his leadership role. An exceptional scholar with numerous gold medals and awards, Dr. Srinivas has authored around 200 research papers and trained thousands of medical students. He holds fellowships from 15 professional organizations, including the prestigious Childrens Research Center, Dublin, Ireland. Dr. Srinivas is recognized as one of India most eminent medical luminaries, admired throughout the medical fraternity for his multifaceted expertise and visionary leadership.', // Placeholder bio
   },
   {
     id: 2,
+    name: 'Dr.  Sandeep Agarwala',
+    title: 'Organizing  Chairman',
+    imageUrl: '/board_com_pic/s_aggrawala.png', // Replace with actual image path
+    bio: 'Prof. Sandeep Agarwala serves as Professor and Head of the Department of Paediatric Surgery at AIIMS New Delhi, bringing over three decades of exemplary leadership in paediatric surgical care, education, and research to RIPSSCON. With more than 200 PubMed publications and an h-index of 21, Prof. Agarwala is internationally recognized for his pioneering contributions to paediatric oncology, congenital anomalies management, and surgical innovation. His visionary leadership has shaped countless surgical careers and advanced paediatric surgical practice across India and beyond. ', // Placeholder bio
+  },
+
+  {
+    id: 3,
+    name: 'Dr. Prabudh Goel',
+    title: 'Organizing Secretary',
+    imageUrl: '/board_com_pic/PG_pic.jpg', // Replace with actual image path
+    bio: 'Dr. Prabudh Goel is Professor of Paediatric Surgery at the AIIMS, New Delhi, and a distinguished paediatric and neonatal surgeon, paediatric urologist, and hypospadiologist with over two decades of clinical excellence. With more than 180 publications, 8,000+ citations, and multiple patented innovations, he stands as one of Indias most prolific researchers in paediatric surgery. Dr. Goel remarkable contributions include groundbreaking research projects worth over 20 crores and prestigious awards including the UC Chakraborty Award and Paediatric Urologist of the Year Award (2021). ', // Placeholder bio
+  },
+  {
+    id: 4,
     name: 'Dr. Vishesh Jain',
     title: 'Organizing Secretary',
     imageUrl: '/board_com_pic/Dr_Vishesh_Jain.jpg', // Replace with actual image path
-    bio: 'Dr. Vishesh Jain is Professor of Pediatric Surgery at AIIMS, New Delhi, with over 20 years of experience in the field. Specializing in surgeries for infants, children, and adolescents, Dr. Jain is a leading expert in minimally invasive techniques, including keyhole surgery, laparoscopy, and thoracoscopy. In addition to his clinical work, he is actively involved in teaching and research at AIIMS. Dr. Jain is also passionate about leveraging information technology to enhance patient management, improve the patient experience, and streamline data management, reflecting his commitment to innovation in pediatric healthcare.', // Placeholder bio
+    bio: 'Dr. Vishesh Jain is Professor of Paediatric Surgery at the AIIMS, New Delhi, and brings over 15 years of distinguished clinical and academic experience to RIPSSCON. A gold medallist in both MBBS and MCh (Paediatric Surgery), Prof. Jain has established himself as a prolific researcher with 137 scientific publications and 50 book chapters to his credit. His expertise spans paediatric surgery, neonatal surgery, and paediatric urology, with significant contributions to Wilms tumor research and urological reconstructive procedures.', // Placeholder bio
   },
   {
-    id: 3,
+    id: 5,
     name: 'Dr. Anjan Dhua',
     title: 'Organizing Secretary',
     imageUrl: '/board_com_pic/Dr_Anjan_Dhua.jpg', // Replace with actual image path
-    bio: 'Dr. Anjan Kumar Dhua is Professor of Pediatric Surgery at AIIMS, New Delhi, with extensive experience in minimally invasive, laparoscopic, robotic, and oncologic pediatric surgeries. Holding qualifications including MBBS, MS, MCh, DNB, FIAPS, and MNAMS, he has authored over 200 publications with more than 33,000 reads and 600 citations. A recipient of multiple prestigious gold medals, Dr. Dhua has served in leading medical institutions including MAMC, ABVIMS-RML, and PIMS. His clinical and research interests include congenital abnormalities, laparoscopic urology, and pediatric surgical innovations. He is also active in academic mentorship and collaborative global research networks.', // Placeholder bio
+    bio: 'Dr. Anjan Kumar Dhua serves as Professor of Pediatric Surgery at AIIMS Delhi, bringing exceptional expertise in paediatric surgery, laparoscopic procedures, and robotic surgery to RIPSSCON. A distinguished Fellow of multiple prestigious academies including the American College of Surgeons (FACS) and the International College of Robotic Surgeons (FICRS), Prof. Dhua has contributed significantly to paediatric surgical literature with over 90 PubMed publications and an h-index of 12. His research excellence encompasses innovative surgical techniques, particularly in minimally invasive approaches and pediatric oncology.', // Placeholder bio
   },
   {
 
-    id: 4,
+    id: 6,
     name: 'Dr. Devendra Yadav',
     title: 'Organizing Secretary',
     imageUrl: '/board_com_pic/Dr_Devendra_Yadav.jpg', // Replace with actual image path
-    bio: 'Dr. Devendra Kumar Yadav is Professor of Pediatric Surgery at the AIIMS, New Delhi. With a strong academic and clinical background, he has contributed significantly to the field through his expertise in pediatric surgical care and minimally invasive techniques. Dr. Yadav has published over 90 research articles, accumulating more than 6,800 reads and 385 citations, reflecting his active involvement in advancing pediatric surgical knowledge. At AIIMS, he plays a key role in clinical care, academic mentorship, and research, helping to shape the next generation of pediatric surgeons and improve patient outcomes.', // Placeholder bio
+    bio: 'Dr. Devendra Kumar Yadav is a Professor of Paediatric Surgery at AIIMS New Delhi, renowned for his expertise as a paediatric and neonatal surgeon, paediatric urologist, and hypospadiologist. With over 85 PubMed publications and extensive experience in clinical research, Prof. Yadav has made significant contributions to paediatric urology and surgical outcomes research. His scholarly work encompasses systematic reviews, meta-analyses, and innovative surgical techniques, particularly in hypospadias repair and urological reconstructive procedures.', // Placeholder bio
+  },
+
+  {
+
+    id: 7,
+    name: 'Dr. GAli Divya ',
+    title: 'Joint Organizing Secretary',
+    imageUrl: '/board_com_pic/gali_divya.jpg', // Replace with actual image path
+    bio: 'Dr. Gali Divya is Assistant Professor of Pediatric Surgery at AIIMS New Delhi, bringing fresh perspectives and dynamic energy to RIPSSCON as an emerging leader in paediatric surgery. A gold medallist in MS General Surgery and MCh Pediatric Surgery, Dr. Divya has quickly established herself as a rising star with significant research contributions in paediatric trauma, neonatal surgery, and congenital anomalies. Her impressive portfolio includes multiple award-winning presentations, peer-reviewed publications, and active involvement in cutting-edge research projects.', // Placeholder bio
   },
   // Add more speakers as needed
 ];
@@ -49,7 +75,7 @@ const SpeakersSection = () => {
                 src={speaker.imageUrl}
                 alt={`Photo of ${speaker.name}`}
                 fill={true}
-                style={{ objectFit: 'cover' }}
+                style={{ objectFit: 'cover', objectPosition: 'center' }}
               />
             </div>
             <h3 className="text-xl font-semibold text-gray-800 mb-1">{speaker.name}</h3>
@@ -117,11 +143,11 @@ const WelcomeLetterPage = () => {
             <ul className="list-disc list-inside mb-4">
               <li><span className="font-semibold text-red-600">Exploring the role of exome sequencing and other genetic techniques in favour of our children affected with anatomic congenital malformations.</span></li>
               <li><span className="font-semibold text-red-600">Their applications in real-world clinical practice beyond academia while focussing on our resident trainee and private practitioner alike.</span></li>
-              <li><span className="font-semibold text-red-600">Tackling the most controversial debates in our field.Professional innovations and intellectual property rights.</span></li>
+              <li><span className="font-semibold text-red-600">Tackling the most controversial debates in our field. Professional innovations and intellectual property rights.</span></li>
               <li><span className="font-semibold text-red-600">Creativity and celebrating the diverse landscape of paediatric surgery – from academic institutions to private practice excellence.</span></li>
             </ul>
 
-            <p className="text-xl font-semibold text-red-600 mb-4">Why This Conference Will Transform Your Practice</p>
+            <p className="text-xl font-semibold text-red-600 mb-4">Why this Conference will Transform your Practice</p>
             <p className="mb-4">In an era where paediatric surgery is rapidly evolving with cutting-edge technologies and revolutionary treatment approaches, staying ahead isn’t just an advantage it’s essential. RIPSSCON2025 has been meticulously designed to equip you with the knowledge, skills, and connections that will define the future of paediatric surgery.</p>
 
             <p className="text-xl font-semibold text-red-600 mb-4">🔬 Dive Deep into Research Excellence</p>
@@ -162,12 +188,12 @@ const WelcomeLetterPage = () => {
             <p className="mb-4">The future of paediatric surgery in India will be shaped by the decisions we make today, the knowledge we acquire, and the connections we build. Don’t let this opportunity pass by – be part of the conversation that will define the next decade of paediatric surgical excellence.</p>
 
             <p className="mb-4">Mark your calendars: December 06–07, 2025</p>
-            <p className="mb-4">Location: JL Auditorium, AIIMS New Delhi</p>
+            <p className="mb-4">Location: JL Auditorium, AIIMS, New Delhi</p>
 
-            <p className="mb-4">For registration and further details, please contact:</p>
-            <p className="mb-1">Prof. Prabhudh Goel</p>
-            <p className="mb-1">Mobile: +91- 9999844511</p>
-            <p className="mb-4">Email: drprabhudhgoel@gmail.com</p>
+            <p className="mb-4" >For registration and further details, please contact:</p>
+            <p className="mb-1 text-bold ">Prof. Prabudh Goel</p>
+            <p className="mb-1 text-bold">Mobile: +91-9999944511</p>
+            <p className="mb-4 text-bold">Email: drprabudhgoel@gmail.com</p>
 
             <p className="text-xl font-semibold text-red-600 mb-4">Together, We Heal. Together, We Innovate. Together, We Excel.</p>
             <p className="mb-4">We look forward to welcoming you to what promises to be an unforgettable celebration of paediatric surgical excellence, innovation, and camaraderie.</p>

@@ -28,7 +28,7 @@ const BoardCommitteesPage: React.FC = () => {
       {/* Header Section */}
       <div className="header">
         <div className="inner-header flex">
-          <h1>Organizing Committees</h1> {/* Updated title */}
+          <h1>Organizing Committee</h1> {/* Updated title */}
         </div>
 
         {/*Waves Container*/}

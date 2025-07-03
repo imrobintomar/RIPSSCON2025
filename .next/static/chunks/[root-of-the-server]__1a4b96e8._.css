@@ -983,9 +983,6 @@
     --color-yellow-500: oklch(79.5% .184 86.047);
     --color-green-500: oklch(72.3% .219 149.579);
     --color-cyan-600: oklch(60.9% .126 221.723);
-    --color-cyan-700: oklch(52% .105 223.128);
-    --color-cyan-800: oklch(45% .085 224.283);
-    --color-cyan-900: oklch(39.8% .07 227.392);
     --color-blue-500: oklch(62.3% .214 259.815);
     --color-blue-600: oklch(54.6% .245 262.881);
     --color-blue-700: oklch(48.8% .243 264.376);
@@ -1639,6 +1636,10 @@
     align-items: flex-start;
   }
 
+  .items-stretch {
+    align-items: stretch;
+  }
+
   .justify-between {
     justify-content: space-between;
   }
@@ -1783,10 +1784,6 @@
     border-color: #002060;
   }
 
-  .border-cyan-700 {
-    border-color: var(--color-cyan-700);
-  }
-
   .border-gray-200 {
     border-color: var(--color-gray-200);
   }
@@ -1817,10 +1814,6 @@
 
   .bg-cyan-600 {
     background-color: var(--color-cyan-600);
-  }
-
-  .bg-cyan-700 {
-    background-color: var(--color-cyan-700);
   }
 
   .bg-gray-100 {
@@ -2046,18 +2039,6 @@
 
   .text-blue-800 {
     color: var(--color-blue-800);
-  }
-
-  .text-cyan-600 {
-    color: var(--color-cyan-600);
-  }
-
-  .text-cyan-700 {
-    color: var(--color-cyan-700);
-  }
-
-  .text-cyan-800 {
-    color: var(--color-cyan-800);
   }
 
   .text-gray-600 {
@@ -2395,12 +2376,6 @@
   }
 
   @media (hover: hover) {
-    .hover\:bg-cyan-900:hover {
-      background-color: var(--color-cyan-900);
-    }
-  }
-
-  @media (hover: hover) {
     .hover\:bg-gray-100:hover {
       background-color: var(--color-gray-100);
     }
@@ -2454,10 +2429,6 @@
     --tw-ring-color: var(--color-blue-500);
   }
 
-  .focus\:ring-cyan-600:focus {
-    --tw-ring-color: var(--color-cyan-600);
-  }
-
   .focus\:ring-gray-600:focus {
     --tw-ring-color: var(--color-gray-600);
   }
@@ -2498,13 +2469,6 @@
   @media (width >= 40rem) {
     .sm\:py-3 {
       padding-block: calc(var(--spacing) * 3);
-    }
-  }
-
-  @media (width >= 40rem) {
-    .sm\:text-4xl {
-      font-size: var(--text-4xl);
-      line-height: var(--tw-leading, var(--text-4xl--line-height));
     }
   }
 
@@ -2719,13 +2683,6 @@
     .md\:text-4xl {
       font-size: var(--text-4xl);
       line-height: var(--tw-leading, var(--text-4xl--line-height));
-    }
-  }
-
-  @media (width >= 48rem) {
-    .md\:text-5xl {
-      font-size: var(--text-5xl);
-      line-height: var(--tw-leading, var(--text-5xl--line-height));
     }
   }
 

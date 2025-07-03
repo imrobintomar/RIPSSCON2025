@@ -11,25 +11,10 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-    },
-  },
-  plugins: [],
-};
-
-module.exports = {
-  theme: {
-    extend: {
       colors: {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
-      }
-    }
-  }
-}
-
-module.exports = {
-  theme: {
-    extend: {
+      },
       animation: {
         wave: 'wave 8s linear infinite',
         moveForever: 'move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite',
@@ -44,6 +29,7 @@ module.exports = {
           '100%': { transform: 'translate3d(85px, 0, 0)' },
         }
       }
-    }
-  }
-}
+    },
+  },
+  plugins: [],
+};
