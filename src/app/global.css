@@ -202,7 +202,7 @@ p {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: black;
+  background-color: rgb(237, 233, 233);
   border-radius: 50%;
   cursor: pointer;
   transition: opacity 0.3s ease;
@@ -217,7 +217,7 @@ p {
   display: block;
   width: 20px;
   height: 20px;
-  stroke: white;
+  stroke: rgb(2, 2, 2);
   transition: all 0.1s ease;
 }
 
@@ -247,3 +247,46 @@ p {
 .footer-bg-override {
   background-color: #002060 !important;
 }
+
+/* Hero Section Background */
+.hero-section-bg {
+  background-image: url('/home_bg/delhi-image.jpeg'); /* Use the selected static image */
+  background-color: #002060; /* Set the background color */
+  background-size: cover; /* Adjust size to cover the section */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-attachment: fixed; /* Parallax effect */
+}
+
+/* Hero Left Background Image */
+.hero-left-bg {
+  background-image: url('/home_bg/lotus_bg.png');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Hero Right Background Image */
+.hero-right-bg {
+  background-image: url('/home_bg/redfort_bg.png');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Discover Delhi Section Background */
+.discover-delhi-bg {
+  background-image: url('/home_bg/delhi-image.jpeg');
+  background-size: cover; /* Cover the section */
+  background-position: center; /* Center the image */
+  background-attachment: fixed; /* Parallax effect */
+  background-repeat: no-repeat;
+  /* Removed text centering and padding from the background class */
+}
+
+.discover-delhi-bg p {
+  color: white !important;
+}
+
+.image-blue-tint {
+  filter: hue-rotate(200deg) saturate(150%); /* Adjust values as needed */
+}
+

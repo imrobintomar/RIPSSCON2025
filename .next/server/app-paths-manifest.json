@@ -2,7 +2,5 @@
   "/about/board-committees/page": "app/about/board-committees/page.js",
   "/about/general-info/page": "app/about/general-info/page.js",
   "/about/welcome-letter/page": "app/about/welcome-letter/page.js",
-  "/page": "app/page.js",
-  "/schedule/research-workshop/page": "app/schedule/research-workshop/page.js",
-  "/schedule/scientific-program/page": "app/schedule/scientific-program/page.js"
+  "/page": "app/page.js"
 }

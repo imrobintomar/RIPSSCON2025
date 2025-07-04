@@ -79,7 +79,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$
 const speakers = [
     {
         id: 1,
-        name: 'Dr. M Sriniwas',
+        name: 'Dr. M Srinivas',
         title: 'Patron',
         imageUrl: '/board_com_pic/M_Sriniwas_director-221.jpg',
         bio: 'Dr. M Srinivas, Director of the All India Institute of Medical Sciences (AIIMS), New Delhi, brings over three decades of distinguished experience in academic medicine, administration, and pediatric surgery to his leadership role. An exceptional scholar with numerous gold medals and awards, Dr. Srinivas has authored around 200 research papers and trained thousands of medical students. He holds fellowships from 15 professional organizations, including the prestigious Childrens Research Center, Dublin, Ireland. Dr. Srinivas is recognized as one of India most eminent medical luminaries, admired throughout the medical fraternity for his multifaceted expertise and visionary leadership.'
@@ -121,7 +121,7 @@ const speakers = [
     },
     {
         id: 7,
-        name: 'Dr. GAli Divya ',
+        name: 'Dr. Gali Divya ',
         title: 'Joint Organizing Secretary',
         imageUrl: '/board_com_pic/gali_divya.jpg',
         bio: 'Dr. Gali Divya is Assistant Professor of Pediatric Surgery at AIIMS New Delhi, bringing fresh perspectives and dynamic energy to RIPSSCON as an emerging leader in paediatric surgery. A gold medallist in MS General Surgery and MCh Pediatric Surgery, Dr. Divya has quickly established herself as a rising star with significant research contributions in paediatric trauma, neonatal surgery, and congenital anomalies. Her impressive portfolio includes multiple award-winning presentations, peer-reviewed publications, and active involvement in cutting-edge research projects.'
@@ -143,7 +143,7 @@ const SpeakersSection = ()=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8",
                 children: speakers.map((speaker)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "bg-white border border-gray-200 p-4 rounded-lg shadow-md hover:shadow-lg text-center transition-all duration-300 transform hover:scale-105",
+                        className: "bg-white border border-blue-800 p-4 rounded-lg shadow-md hover:shadow-lg text-center transition-all duration-300 transform hover:scale-105",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-2 border-gray-300 shadow-sm",
@@ -771,7 +771,7 @@ const WelcomeLetterPage = ()=>{
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "mb-4 text-bold ",
+                                        className: "mb-4 text-bold",
                                         children: "Email: drprabudhgoel@gmail.com"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/welcome-letter/page.tsx",

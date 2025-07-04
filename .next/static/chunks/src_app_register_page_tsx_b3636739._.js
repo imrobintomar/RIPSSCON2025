@@ -25,7 +25,7 @@ const RegisterPage = ()=>{
     const renderCollapsibleSection = (id, title, content)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].Fragment, {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                    className: "flex justify-between items-center w-full py-4 text-left font-semibold text-blue-700 hover:text-blue-900 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-cyan-600",
+                    className: "flex justify-between items-center w-full py-4 text-left font-semibold text-blue-700 hover:text-blue-900 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#002060]",
                     onClick: ()=>toggleSection(id),
                     "aria-expanded": openSection === id,
                     "aria-controls": `content-${id}`,
@@ -163,7 +163,7 @@ const RegisterPage = ()=>{
                 className: "container mx-auto px-4 py-8 dark:bg-gray-800 dark:text-white",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        className: "text-center text-3xl md:text-4xl font-bold text-cyan-600 mb-6",
+                        className: "text-center text-3xl md:text-4xl font-bold text-[#002060] mb-6",
                         children: "Registration Fees"
                     }, void 0, false, {
                         fileName: "[project]/src/app/register/page.tsx",
@@ -185,7 +185,7 @@ const RegisterPage = ()=>{
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("thead", {
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
-                                        className: "bg-cyan-700 text-white",
+                                        className: "bg-[#002060] text-white",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
                                                 className: "py-3 px-4 text-center",
@@ -392,10 +392,10 @@ const RegisterPage = ()=>{
                         className: "text-center mt-8 sticky bottom-4",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             href: "/register",
-                            className: "group relative overflow-hidden bg-cyan-600 text-white px-8 py-3 rounded-md font-semibold hover:bg-blue-900 transition-all duration-200 text-lg shadow-lg",
+                            className: "group relative overflow-hidden bg-[#002060] text-white px-8 py-3 rounded-md font-semibold hover:bg-[#002060] transition-all duration-200 text-lg shadow-lg",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "absolute inset-0 bg-cyan-800 opacity-0 group-hover:opacity-20 transition-opacity duration-300"
+                                    className: "absolute inset-0 bg-[#002060] opacity-0 group-hover:opacity-20 transition-opacity duration-300"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/register/page.tsx",
                                     lineNumber: 118,

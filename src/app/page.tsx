@@ -4,7 +4,10 @@ import { useEffect, useRef } from 'react';
 
 
 
-import { cn } from "./lib/utils"; 
+import HeroPage from './hero/page';
+
+
+import { cn } from "./lib/utils";
 import {
   IconAdjustmentsBolt,
   IconCloud,
@@ -137,63 +140,7 @@ export default function Home() {
 
   return (
     <>
-      {/* Hero Section */}
-      <section
-        id="hero"
-        className="relative h-[60vh] md:h-[70vh] lg:h-[80vh] flex flex-col justify-center items-center text-center overflow-hidden px-4" // Adjusted height and added horizontal padding
-      >
-        {/* Carousel Container */}
-        {/* You will likely need a carousel library or custom implementation here */}
-        <div className="relative w-full h-full">
-          {/* Slide 1: Registration */}
-          <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4">
-            {/* Background Image for Slide 1 */}
-            <img src="/hero1.jpg" alt="Hero Background" className="absolute inset-0 z-0 w-full h-full object-cover" /> {/* Added hero image */}
-
-            {/* Content for Slide 1 */}
-            <div className="relative z-10">
-              {/* "Register Now!" Title - Needs a script-like font */}
-            
-              <p className="hero-slogan sm:text-lg mb-8 max-w-4xl mx-auto px-4  font-bold text-[#002060]"> {/* Adjusted text color, max-width, and added horizontal padding */}
-                LET'S COME TOGETHER AT RIPSSCON2025 TO ADVANCE CHILD CARE GLOBALLY, THROUGH RESEARCH, EDUCATION & COLLABORATION.
-              </p>
-
-              {/* Register Here Button */}
-              <Link href="/register" className="inline-block bg-[#002060] text-white px-6 py-2 sm:px-8 sm:py-3 rounded-full font-semibold hover:bg-[#002060] transition-colors duration-200 text-base sm:text-lg shadow-lg"> {/* Adjusted padding and text size for smaller screens */}
-                Register Here
-              </Link>
-            </div>
-          </div>
-
-          {/* Slide 2: Submit Abstract */}
-          {/* This slide would typically be hidden and controlled by carousel logic */}
-          <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 opacity-0"> {/* Initially hidden */}
-             {/* Background Image for Slide 2 - Placeholder */}
-            {/* Add your background image for the abstract slide here */}
-            <div className="absolute inset-0 z-0 bg-gray-400"></div> {/* Placeholder background */}
-
-            {/* Content for Slide 2 */}
-            <div className="relative z-10">
-              {/* Title for Slide 2 */}
-              <h2 className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-4 text-blue-800"> {/* Placeholder color and font size */}
-                Submit Your Abstract
-              </h2>
-               <p className="text-lg sm:text-xl mb-8 text-gray-800 max-w-4xl mx-auto"> {/* Adjusted text color and max-width */}
-                Share your groundbreaking research with the community.
-              </p>
-
-              {/* Submit Abstract Button */}
-              <Link href="/submit-abstract" className="inline-block bg-blue-800 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-900 transition-colors duration-200 text-lg shadow-lg"> {/* Styled button */}
-                Submit Abstract
-              </Link>
-            </div>
-          </div>
-
-          {/* Carousel Navigation/Indicators - You will need to add these */}
-          {/* Example: <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 z-20">...</div> */}
-
-        </div>
-      </section>
+      <HeroPage />
 
       {/* Welcome Letter and Video Section */}
       <section className="container mx-auto px-4 py-12"> {/* Increased vertical padding */}
@@ -209,7 +156,7 @@ export default function Home() {
               <p>With a renewed focus on genomic medicine, controversial clinical debates, real-world applications of research, and cross-sector collaboration, RIPSSCON 2025 is a not-to-miss convergence of science, surgery, and forward-thinking care.</p>
               <p>So, we invite you to mark your calendars, contribute your knowledge, share your expertise and join our global community in New Delhi for RIPSSCON 2025!</p>
               {/* Add more welcome letter text or a link to the full letter page */}
-      
+
             </div>
              {/* Welcome Letter Button */}
             <div className="mt-8"> {/* Increased margin-top */}
@@ -233,7 +180,7 @@ export default function Home() {
           <div className="bg-[#002060] text-white p-4 sm:p-6 rounded-lg shadow-md flex flex-col items-center text-center"> {/* Styled block, adjusted padding */}
             {/* Icon Placeholder */}
             <span className="text-4xl mb-4">🔬</span> {/* Placeholder icon */}
-            <h3 className="text-lg sm:text-xl font-semibold mb-2">About<br />RIPSCCON2025</h3> {/* Title with line break, adjusted font size */}
+            <h3 className="text-lg sm:text-xl font-semibold mb-2">About<br />RIPSSCON 2025</h3> {/* Title with line break, adjusted font size */}
             <Link href="/about" className="text-sm underline">Read More</Link> {/* Read More link */}
           </div>
           {/* Block 2: General Information (Pink/Magenta) */}
@@ -261,6 +208,21 @@ export default function Home() {
       </section>
 
       <FeaturesSectionDemo />
+
+      {/* Discover Delhi Section */}
+      <section className="py-20 px-4 discover-delhi-bg"> {/* Removed background class, kept padding */}
+        <div className="container mx-auto"> {/* Kept container */}
+          <div className="bg-[#002060] text-white p-8 md:p-12 rounded-lg max-w-md md:max-w-lg lg:max-w-xl ml-4 md:ml-8"> {/* Added blue background, padding, rounded corners, max-width, and left margin */}
+            <h2 className="text-4xl font-bold mb-6 text-yellow-400">GET READY FOR DELHI</h2> {/* Changed heading text and color */}
+            <p className="text-lg mb-8 text-white !important"> {/* Ensured text is white */}
+              Explore the rich history, vibrant culture, and stunning architecture of Delhi. Whether you're wandering along bustling markets, visiting world-class monuments, or enjoying the lively street food scene, there's something for everyone in this enchanting city. In Delhi, you can effortlessly transition from the engaging RIPSSCON2025 congress to exploring vibrant neighborhoods, ensuring a perfect balance of work and leisure.
+            </p>
+            <Link href="/discover-delhi" className="inline-block bg-white text-[#002060] px-6 py-2 sm:px-8 sm:py-3 rounded-full font-semibold hover:bg-gray-200 transition-colors duration-200 text-base sm:text-lg shadow-lg"> {/* Changed button style to match hero */}
+              Discover Delhi
+            </Link>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

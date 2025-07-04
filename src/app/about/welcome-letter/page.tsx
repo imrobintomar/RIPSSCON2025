@@ -8,7 +8,7 @@ const speakers = [
   {
 
     id: 1,
-    name: 'Dr. M Sriniwas',
+    name: 'Dr. M Srinivas',
     title: 'Patron',
     imageUrl: '/board_com_pic/M_Sriniwas_director-221.jpg', // Replace with actual image path
     bio: 'Dr. M Srinivas, Director of the All India Institute of Medical Sciences (AIIMS), New Delhi, brings over three decades of distinguished experience in academic medicine, administration, and pediatric surgery to his leadership role. An exceptional scholar with numerous gold medals and awards, Dr. Srinivas has authored around 200 research papers and trained thousands of medical students. He holds fellowships from 15 professional organizations, including the prestigious Childrens Research Center, Dublin, Ireland. Dr. Srinivas is recognized as one of India most eminent medical luminaries, admired throughout the medical fraternity for his multifaceted expertise and visionary leadership.', // Placeholder bio
@@ -54,7 +54,7 @@ const speakers = [
   {
 
     id: 7,
-    name: 'Dr. GAli Divya ',
+    name: 'Dr. Gali Divya ',
     title: 'Joint Organizing Secretary',
     imageUrl: '/board_com_pic/gali_divya.jpg', // Replace with actual image path
     bio: 'Dr. Gali Divya is Assistant Professor of Pediatric Surgery at AIIMS New Delhi, bringing fresh perspectives and dynamic energy to RIPSSCON as an emerging leader in paediatric surgery. A gold medallist in MS General Surgery and MCh Pediatric Surgery, Dr. Divya has quickly established herself as a rising star with significant research contributions in paediatric trauma, neonatal surgery, and congenital anomalies. Her impressive portfolio includes multiple award-winning presentations, peer-reviewed publications, and active involvement in cutting-edge research projects.', // Placeholder bio
@@ -69,7 +69,7 @@ const SpeakersSection = () => {
       <h2 className="text-2xl md:text-3xl font-semibold text-[#002060] mb-6 border-b pb-2"></h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
         {speakers.map((speaker) => (
-          <div key={speaker.id} className="bg-white border border-gray-200 p-4 rounded-lg shadow-md hover:shadow-lg text-center transition-all duration-300 transform hover:scale-105">
+          <div key={speaker.id} className="bg-white border border-blue-800 p-4 rounded-lg shadow-md hover:shadow-lg text-center transition-all duration-300 transform hover:scale-105">
             <div className="relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-2 border-gray-300 shadow-sm"> {/* Refined image border */}
               <Image
                 src={speaker.imageUrl}

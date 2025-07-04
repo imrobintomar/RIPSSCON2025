@@ -3,8 +3,8 @@ import ProfileCard from '../../components/ProfileCard';
 import WaveScrollEffect from '../../components/WaveScrollEffect'; // Import WaveScrollEffect
 
 const boardMembersData = [
-  { name: 'M Sriniwas', department: 'Patron', linkedinId: 'M Sriniwas', profileImageUrl: '/board_com_pic/M_Sriniwas_director-221.jpg' },
-  { name: 'Sandeep Agarwala', department: 'Chairperson', linkedinId: 'S Aggrawala', profileImageUrl: '/board_com_pic/s_aggrawala.jpg' },
+  { name: 'M Srinivas', department: 'Patron', linkedinId: 'M Srinivas', profileImageUrl: '/board_com_pic/M_Sriniwas_director-221.jpg' },
+  { name: 'Sandeep Agarwala', department: 'Chairperson', linkedinId: 'S Aggrawala', profileImageUrl: '/board_com_pic/s_aggrawala.png' },
   { name: 'Prabudh Goel', department: 'Organizing Secretary', linkedinId: 'prabudh-goel-163272151/?originalSubdomain=in', profileImageUrl: '/board_com_pic/PG_pic.jpg' },
   { name: 'Anjan Kumar Dhua', department: 'Organizing Secretary', linkedinId: 'dr-anjan-dhua-0a354941/?originalSubdomain=in', profileImageUrl: '/board_com_pic/Dr_Anjan_Dhua.jpg' },
   { name: 'Devendra Kumar Yadav', department: 'Organizing Secretary', linkedinId: 'Devendra Kr Yadav', profileImageUrl: '/board_com_pic/Dr_Devendra_Yadav.jpg' },

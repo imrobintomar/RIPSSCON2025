@@ -50,10 +50,10 @@ export default function RootLayout({
     <img src="/logo3.jpeg" alt="Logo 3" className="h-12 md:h-29" />
   </div> {/* End container for logos */}
 
-                <div className="flex flex-col justify-center text-center md:text-left"> {/* Center text on small screens */}
-                  <Link href="/" className="text-base md:text-lg font-bold block">10th Annual Workshop Cum Conference on</Link>
-                  <Link href="/"  className="text-base md:text-lg font-bold block">Translational Research and Innovation in Paediatric Surgery</Link>
-                  <Link href="/"  className="text-xxs md:text-xs text-pink-600 font-bold block">06-07 DECEMBER 2025 | AIIMS, NEW DELHI</Link>
+                <div className="flex flex-col justify-center text-center md:text-left gap-2 max-w-sm mx-auto"> {/* Center text on small screens */}
+                  <Link href="/" className="text-lg md:text-lg font-bold block">10th Annual Workshop Cum Conference on</Link>
+                  <Link href="/"  className="text-lg md:text-lg font-bold block">Translational Research and Innovation in Paediatric Surgery</Link>
+                  <Link href="/"  className="text-xs text-pink-600 font-bold block">06-07 DECEMBER 2025 | AIIMS, NEW DELHI</Link>
                 </div>
               </div>
               {/* Hamburger Button */}
@@ -73,7 +73,7 @@ export default function RootLayout({
                </nav>
 
               {/* Navigation Links and Register Button */}
-              <div className={`w-full md:w-auto md:flex md:items-center transition-all duration-300 ease-in-out ${isMenuOpen ? 'block' : 'hidden'} md:block`}> {/* Consistent class names and vertical centering, ensure visible on md screens */}
+              <div className={`md:w-auto md:flex md:items-center transition-all duration-300 ease-in-out ${isMenuOpen ? 'block w-screen z-30' : 'hidden'} md:block`}> {/* Consistent class names and vertical centering, ensure visible on md screens */}
                 <nav className="flex flex-col md:flex-row items-center justify-center text-sm md:text-base py-4 md:py-0 md:flex-grow w-full md:w-auto"> {/* Consistent class names and vertical centering, added width */}
                   <ul className="flex flex-col md:flex-row items-center justify-center gap-x-6 gap-y-2 mb-2 md:mb-0 w-full md:w-auto"> {/* Consistent class names and vertical centering, added width */}
                     {/* About Dropdown */}
@@ -93,10 +93,10 @@ export default function RootLayout({
                               <Link href="/about/welcome-letter" onClick={toggleMenu} className="block px-4 py-2 hover:bg-[#002060] hover:text-white">Welcome Letter</Link> {/* Adapted link */}
                             </li>
                             <li>
-                              <Link href="/about/board-committees" onClick={toggleMenu} className="block px-4 py-2 hover:bg-[#002060] hover:text-white">Organizing  Committees</Link> {/* Adapted link */}
+                              <Link href="/about/board-committees" onClick={toggleMenu} className="block px-4 py-2 hover:bg-[#002060] hover:text-white">Organizing Committee</Link> {/* Adapted link */}
                             </li>
                             <li>
-                              <Link href="/about/about-us" onClick={toggleMenu} className="block px-4 py-2 hover:bg-[#002060] hover:text-white">About RIPSSCON2025 </Link> {/* Adapted link */}
+                              <Link href="/about/about-us" onClick={toggleMenu} className="block px-4 py-2 hover:bg-[#002060] hover:text-white">About RIPSSCON 2025 </Link> {/* Adapted link */}
                             </li>
                              <li>
                               <Link href="/about/mission-vision" onClick={toggleMenu} className="block px-4 py-2 hover:bg-[#002060] hover:text-white">Mission & Vision</Link> {/* Adapted link */}
@@ -263,6 +263,13 @@ export default function RootLayout({
           </main>
 
         </div>
+        {/* Image before Footer */}
+        <div className="footer-bg-override flex flex-col items-center py-8 bg-white">
+          <img src="/home_bg/child.png" alt="Child image" className="w-100 md:w-200 h-auto mb-4" />
+          <img src="/tulipsdrawsiop25.svg" alt="Tulips drawing" className="w-48 md:w-full h-auto" />
+          <div className="w-full border-t border-white mt-8" />
+        </div>
+
         {/* Footer */}
         <Footer />
         <ScrollCircleIndicator />
@@ -270,4 +277,5 @@ export default function RootLayout({
     </html>
   );
 }
+
 

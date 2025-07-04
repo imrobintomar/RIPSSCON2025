@@ -8,6 +8,8 @@ runtime.loadChunk("server/chunks/ssr/_99bc2177._.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_b04db032._.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_next_dist_client_components_unauthorized-error_c8949b27.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_next_ff7aed36._.js");
+runtime.loadChunk("server/chunks/ssr/node_modules_react-icons_fa_index_mjs_a1beb003._.js");
+runtime.loadChunk("server/chunks/ssr/node_modules_react-icons_lib_b806b5fe._.js");
 runtime.loadChunk("server/chunks/ssr/_5c557e6a._.js");
 runtime.getOrInstantiateRuntimeModule("[project]/.next-internal/server/app/about/board-committees/page/actions.js [app-rsc] (server actions loader, ecmascript)", CHUNK_PUBLIC_PATH);
 runtime.getOrInstantiateRuntimeModule("[project]/node_modules/next/dist/esm/build/templates/app-page.js?page=/about/board-committees/page { MODULE_0 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript, Next.js server component)\", MODULE_1 => \"[project]/src/app/loading.tsx [app-rsc] (ecmascript, Next.js server component)\", MODULE_2 => \"[project]/src/app/not-found.tsx [app-rsc] (ecmascript, Next.js server component)\", MODULE_3 => \"[project]/node_modules/next/dist/client/components/forbidden-error.js [app-rsc] (ecmascript, Next.js server component)\", MODULE_4 => \"[project]/node_modules/next/dist/client/components/unauthorized-error.js [app-rsc] (ecmascript, Next.js server component)\", MODULE_5 => \"[project]/src/app/about/board-committees/page.tsx [app-rsc] (ecmascript, Next.js server component)\" } [app-rsc] (ecmascript)", CHUNK_PUBLIC_PATH);

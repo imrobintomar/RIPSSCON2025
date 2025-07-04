@@ -12,50 +12,6 @@ const SocialIcon = ({ href, icon }: { href: string, icon: React.ReactNode }) => 
 );
 
 const Footer = () => {
-  const [email, setEmail] = useState('');
-  const [loading, setLoading] = useState(false);
-
-  const handleEmailChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setEmail(e.target.value);
-  };
-
-  const isValidEmail = (email: string) => {
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return emailRegex.test(email);
-  };
-
-  const handleSubscribe = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    if (!isValidEmail(email)) {
-      toast.error("Please enter a valid email address.");
-      return;
-    }
-
-    setLoading(true);
-    try {
-      const response = await fetch('/api/subscribe', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ email }),
-      });
-
-      if (response.ok) {
-        toast.success('Subscription successful! Please check your email for a verification link.');
-        setEmail('');
-      } else {
-        const errorData = await response.json();
-        toast.error(`Failed to subscribe: ${errorData.message || response.statusText}`);
-      }
-    } catch (error) {
-      console.error('Error subscribing:', error);
-      toast.error('An error occurred while subscribing.');
-    } finally {
-      setLoading(false);
-    }
-  };
-
   return (
     <footer className="footer-bg-override text-white mt-auto">
       <div className="w-full py-8 md:py-12"> {/* Added w-full, Removed px-4 and md:px-6 */}
@@ -87,7 +43,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Middle Column: Connect and Subscribe */}
+          {/* Middle Column: Connect */}
           <div className="flex flex-col items-center text-center">
             <h3 className="text-lg font-semibold mb-3">Connect With Us</h3>
             <div className="flex space-x-5">
@@ -96,7 +52,6 @@ const Footer = () => {
               <SocialIcon href="https://linkedin.com/" icon={<FaLinkedin />} />
               <SocialIcon href="https://instagram.com/" icon={<FaInstagram />} />
             </div>
-            
           </div>
 
           {/* Right Column: Contact Us */}
